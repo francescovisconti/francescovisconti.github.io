@@ -7,6 +7,9 @@ subtitle:
 
 ## Articles
 
+* Natili, M., and Visconti, F. (2023) A different logic of polity building? The Russian invasion of Ukraine and EU citizens’ demand for social security.  
+_Journal of European Public Policy_. doi: [10.1080/13501763.2023.2217228](https://doi.org/10.1080/13501763.2023.2217228)   
+
 *    Visconti, F., Kyriazi, A. (2023). A solidarity bias? Assessing the effects of individual transnationalism on redistributive solidarity in the EU.  
 _Journal of European Public Policy_. doi: [10.1080/13501763.2022.2153155](https://doi.org/10.1080/13501763.2022.2153155)
     
@@ -47,9 +50,6 @@ in Conti, N. and Marangoni F. _The challenge of coalition government: The Italia
 doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.875831).
 
 ## Work in progress
-
-* Natili, M., and Visconti, F. The Russian invasion of Ukraine and the EU ‘trilemma’ between promoting energy security, ecological sustainability and equity.   
-**Status**: Under review in the _Journal of European Public Policy_.
 
 * Natili, M., Ronchi, S., Visconti, F. Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
 **Status**: Under review in the _Journal of European Social Policy_.
