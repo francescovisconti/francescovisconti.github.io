@@ -7,10 +7,19 @@ subtitle:
 
 ## Articles
 
+* Visconti, F. (_Forthcoming_) Voting across borders? The electoral consequences of transnationalism.  
+_Journal of Elections, Public Opinion and Parties_.
+
+* Kyriazi, A., Visconti, F. (_Forthcoming_) Emigration and welfare in the EU: the social consequences of the right to exit.  
+_International Migration Review_.
+
+* Moise, A. D., Natili, M., Truchlewski, Z., Visconti, F., and Wang, C. (2023). EU Polity Building after the Russian Invasion of Ukraine.  
+_Journal of European Public Policy_. doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.2205442)
+
 * Natili, M., and Visconti, F. (2023) A different logic of polity building? The Russian invasion of Ukraine and EU citizens’ demand for social security.  
 _Journal of European Public Policy_. doi: [10.1080/13501763.2023.2217228](https://doi.org/10.1080/13501763.2023.2217228)   
 
-*    Visconti, F., Kyriazi, A. (2023). A solidarity bias? Assessing the effects of individual transnationalism on redistributive solidarity in the EU.  
+* Visconti, F., Kyriazi, A. (2023). A solidarity bias? Assessing the effects of individual transnationalism on redistributive solidarity in the EU.  
 _Journal of European Public Policy_. doi: [10.1080/13501763.2022.2153155](https://doi.org/10.1080/13501763.2022.2153155)
     
 * Visconti, F. (2022). The Europeanisation of deservingness? Attitudes on immigrants’ access to welfare before and after Maastricht and the refugee crisis.  
@@ -54,14 +63,8 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 * Natili, M., Ronchi, S., Visconti, F. Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
 **Status**: Under review in the _Journal of European Social Policy_.
 
-* Kyriazi, A., Visconti, F. Emigration and welfare in the EU: the social consequences of the right to exit.  
-**Status**: Under review in the _International Migration Review_.
-
-* Visconti, F. The electoral consequences of transnationalism in the 2019 European elections.  
-**Status**: Under review in the _Journal of Elections, Public Opinion and Parties_.
-
 * Visconti, F. and Pellegata, A., European solidarity as a contested terrain after the crisis: a multidimensional approach.  
-**Status**: _Under revision after rejection_.
+**Status**: Under review in the _Journal of Common Market Studies_.
 
 * Bernardi, L., Visconti, F., Sabate-Domingo, O. and Morales, L. Governing Status and Intra-Party Disagreement in Europe.   
 **Status**: _Under revision after rejection_.
