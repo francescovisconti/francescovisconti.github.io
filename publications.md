@@ -11,7 +11,7 @@ subtitle:
 _Journal of Elections, Public Opinion and Parties_.
 
 * Kyriazi, A., Visconti, F. (_Forthcoming_) Emigration and welfare in the EU: the social consequences of the right to exit.  
-_International Migration Review_.
+_International Migration Review_. [10.1177/01979183231185096](https://doi.org/10.1177/01979183231185096)
 
 * Moise, A. D., Natili, M., Truchlewski, Z., Visconti, F., and Wang, C. (2023). EU Polity Building after the Russian Invasion of Ukraine.  
 _Journal of European Public Policy_. doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.2205442)
