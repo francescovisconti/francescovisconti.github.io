@@ -7,11 +7,14 @@ subtitle:
 
 ## Articles
 
+* Natili, M., Ronchi, S., Visconti, F. (_Forthcoming_) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.
+_Journal of European Social Policy_.
+
 * Visconti, F. (_Forthcoming_) Voting across borders? The electoral consequences of transnationalism.  
-_Journal of Elections, Public Opinion and Parties_.
+_Journal of Elections, Public Opinion and Parties_. doi: [10.1080/17457289.2023.2241817](https://doi.org/10.1080/17457289.2023.2241817)
 
 * Kyriazi, A., Visconti, F. (2023) Free Movement and Welfare in the European Union: The Social Consequences of the Right to Exit.    
-_International Migration Review_. [10.1177/01979183231185096](https://doi.org/10.1177/01979183231185096)
+_International Migration Review_. doi: [10.1177/01979183231185096](https://doi.org/10.1177/01979183231185096)
 
 * Moise, A. D., Natili, M., Truchlewski, Z., Visconti, F., and Wang, C. (2023). EU Polity Building after the Russian Invasion of Ukraine.  
 _Journal of European Public Policy_. doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.2205442)
@@ -59,9 +62,6 @@ in Conti, N. and Marangoni F. _The challenge of coalition government: The Italia
 doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.875831).
 
 ## Work in progress
-
-* Natili, M., Ronchi, S., Visconti, F. Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
-**Status**: Under review in the _Journal of European Social Policy_.
 
 * Visconti, F. and Pellegata, A., European solidarity as a contested terrain after the crisis: a multidimensional approach.  
 **Status**: Under review in the _Journal of Common Market Studies_.
