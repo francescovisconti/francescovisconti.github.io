@@ -7,10 +7,10 @@ subtitle:
 
 ## Articles
 
-* Natili, M., Ronchi, S., Visconti, F. (_Forthcoming_) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.
-_Journal of European Social Policy_.
+* Natili, M., Ronchi, S., Visconti, F. (2023) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.
+_Journal of European Social Policy_. doi: [10.1177/09589287231210727](https://doi.org/10.1177/09589287231210727)
 
-* Visconti, F. (_Forthcoming_) Voting across borders? The electoral consequences of transnationalism.  
+* Visconti, F. (2023) Voting across borders? The electoral consequences of transnationalism.  
 _Journal of Elections, Public Opinion and Parties_. doi: [10.1080/17457289.2023.2241817](https://doi.org/10.1080/17457289.2023.2241817)
 
 * Kyriazi, A., Visconti, F. (2023) Free Movement and Welfare in the European Union: The Social Consequences of the Right to Exit.    
