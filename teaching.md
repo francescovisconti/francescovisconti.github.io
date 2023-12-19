@@ -4,6 +4,10 @@ title: Teaching
 subtitle:
 ---
 
+## Academic Year 2023/2024
+
+- Adjunct Professor of [Data analysis](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/data-analysis)  
+  Bachelor degree [IPLE](https://iple.cdl.unimi.it/en)  
 
 ## Academic Year 2022/2023
 
