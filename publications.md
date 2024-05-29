@@ -7,6 +7,9 @@ subtitle:
 
 ## Articles
 
+* Pellegata, A., Visconti, F. (2024) Mapping citizens, voters, and parties’ preferences on European solidarity across EU member states.  
+_Journal of Contemporary European Studies. doi: [10.1080/14782804.2024.2355532](https://doi.org/10.1080/14782804.2024.2355532)
+
 * Natili, M., Ronchi, S., Visconti, F. (2023) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
 _Journal of European Social Policy_. doi: [10.1177/09589287231210727](https://doi.org/10.1177/09589287231210727)
 
