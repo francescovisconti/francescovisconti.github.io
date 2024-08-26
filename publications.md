@@ -7,7 +7,7 @@ subtitle:
 
 ## Articles
 
-* Visconti, F., Pellegata, A. (_Forthcoming_) European solidarity takes the field: the dimensional structure of EU political competition after the polycrisis.  
+* Visconti, F., Pellegata, A. (2024) European solidarity takes the field: the dimensional structure of EU political competition after the polycrisis.  
 _Journal of Common Market Studies_. doi: [10.1111/jcms.13651](https://doi.org/10.1111/jcms.13651)
 
 
