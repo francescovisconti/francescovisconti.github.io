@@ -15,7 +15,7 @@ _Journal of Contemporary European Studies_. doi: [10.1080/14782804.2024.2355532]
 
 * Biancalana, C., Ladini, R. and Visconti, F. (2023). Climate change in Italy: Towards the politicization of an issue.
 _Italian Political Science_. vol. 18, n. (3), pp. 177-193.  
-[Available here.](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)
+Available here:[https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/article/view/257)
 
 * Natili, M., Ronchi, S., Visconti, F. (2023) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
 _Journal of European Social Policy_. doi: [10.1177/09589287231210727](https://doi.org/10.1177/09589287231210727)
@@ -63,7 +63,7 @@ _Rivista Italiana di Politiche Pubbliche_. doi: [10.1483/87214](https://doi.org/
 
 * Special Issue "The Politicization of Climate Change in Italy" (2023) co-edited with Biancalana, C. and Ladini, R. on
 _Italian Political Science_, vol. 18, n. (3), pp. 177-394.  
-[Available here: https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)     
+Available here:[https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)     
    
 * Debate section "EU Polity Building after the Russian Invasion of Ukraine" (2023) co-edited with Moise, A. D., Natili, M., Truchlewski, Z., and Wang, C. on the
 _Journal of European Public Policy_.
