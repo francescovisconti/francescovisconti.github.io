@@ -10,9 +10,12 @@ subtitle:
 * Visconti, F., Pellegata, A. (2024) European solidarity takes the field: the dimensional structure of EU political competition after the polycrisis.  
 _Journal of Common Market Studies_. doi: [10.1111/jcms.13651](https://doi.org/10.1111/jcms.13651)
 
-
 * Pellegata, A., Visconti, F. (2024) Mapping citizens, voters, and parties’ preferences on European solidarity across EU member states.  
 _Journal of Contemporary European Studies_. doi: [10.1080/14782804.2024.2355532](https://doi.org/10.1080/14782804.2024.2355532)
+
+* Biancalana, C., Ladini, R. and Visconti, F. (2023). Climate change in Italy: Towards the politicization of an issue.
+_Italian Political Science_. vol. 18, n. (3), pp. 177-193.  
+[Available here.](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)
 
 * Natili, M., Ronchi, S., Visconti, F. (2023) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
 _Journal of European Social Policy_. doi: [10.1177/09589287231210727](https://doi.org/10.1177/09589287231210727)
@@ -56,6 +59,16 @@ _Italian Political Science_, vol. 14, n. (3), pp. 188-205. [Available here](http
 * Borghetto, E., Visconti, F. and Michieli, M. (2017) Government Agenda-Setting in Italian Coalitions. Testing the Partisan Hypothesis Using Italian Investiture Speeches 1979-2014.  
 _Rivista Italiana di Politiche Pubbliche_. doi: [10.1483/87214](https://doi.org/10.1483/87214).
 	
+## Editor
+
+* Special Issue "The Politicization of Climate Change in Italy" (2023) co-edited with Biancalana, C. and Ladini, R. on
+_Italian Political Science_, vol. 18, n. (3), pp. 177-394.  
+[Available here: https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)     
+   
+* Debate section "EU Polity Building after the Russian Invasion of Ukraine" (2023) co-edited with Moise, A. D., Natili, M., Truchlewski, Z., and Wang, C. on the
+_Journal of European Public Policy_.
+doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.2205442)
+
 
 ## Chapters
 
@@ -70,14 +83,8 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 
 ## Work in progress
 
-* Visconti, F. and Pellegata, A., European solidarity as a contested terrain after the crisis: a multidimensional approach.  
-**Status**: Under review in the _Journal of Common Market Studies_.
-
 * Bernardi, L., Visconti, F., Sabate-Domingo, O. and Morales, L. Governing Status and Intra-Party Disagreement in Europe.   
 **Status**: _Under revision after rejection_.
-
-* Pellegata, A. and Visconti, F., Who gets represented? MP-voters congruence on European solidarity in the core and periphery.  
-**Status**: _In progress_.
 
 * Visconti, F., _A typology for the study of macro public opinion_.  
 **Status**: _In progress_.
