@@ -6,15 +6,13 @@ subtitle:
 
 ## Statement
 
-The main goal of my research is to study public opinion attitudes towards European integration, with a particular focus on support for solidarity: what determines public support for European solidarity, and what are its political consequences for party competition.  
+My research profile can be summarised in a few keywords: European Union, freedom of movement, solidarity, climate change, public opinion, and quantitative methods.
 
-Secondly, I am interested in understanding the political consequences of individual transnationalism: is the transnationalisation of everyday lives across the EU translating into the transnationalisation of the political process?  
+Starting with the research topics related to the EU, I have worked on studying public preferences for European integration, particularly concerning specific support for supranational solidarity policies, understood as the sharing of risks among citizens and member states. On the one hand, I have contributed to the analysis of the determinants of support for solidarity and, on the other hand, to the consequences of European solidarity preferences for political competition and representation across the EU.
 
-Recently, I started to focus on the analysis of eco-social policies, i.e., policies for the transition to a green economy that also include forms of  compensation for the most affected social categories.  
+The second major research theme relates to the consequences of freedom of movement and is divided into two branches. First, I have studied the consequences of individual-level transnationalism, understood as contacts and experiences with people and cultures of other member countries, a social phenomenon that has significantly increased after the signing of the Maastricht Treaty. I have investigated its consequences in terms of attitudes and political behaviour. The second line of research concerning freedom of movement focuses instead on the political consequences of emigration. This is a highly relevant socio-demographic phenomenon in some regions of Europe, which, however, has received little scholarly attention until recently. In my studies, I have explored the relationship between concerns about emigration and preferences for greater investment in national and European social policies or how political trust relates to concerns for co-nationals exiting their country of origin.
 
-Finally, following the Russian invasion of Ukraine, I became interested in investigating attitudes towards energy and compensation policies.  
-
-I pursue this research in the broader context of public support for European integration.  
+More recently, I have worked on climate change and its politicisation by analysing support for energy transition and eco-social policies from the public opinion perspective. Following the Russian invasion of Ukraine, I investigated attitudes towards energy and compensation policies across the EU. More recently, I have edited a special issue on the politicization of climate change in Italy. What is more, I have collaborated on the design of a survey conducted in seven countries, in which we gauge public support for eco-social policies also through a survey experiment.
 
 You can check out my work [here](https://scholar.google.com/citations?user=CdHzHt0AAAAJ&hl=en).
 
