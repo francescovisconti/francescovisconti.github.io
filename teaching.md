@@ -4,6 +4,14 @@ title: Teaching
 subtitle:
 ---
 
+## Academic Year 2024/2025
+
+- [Political science](https://www.luiss.it/cattedreonline/corso/T006/A/L22PPEBASE/2024)  
+  Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics)
+
+- [Mixed Methods](https://phd.luiss.it/politics/)  
+  PhD programme in [Politics](https://phd.luiss.it/politics/)  
+
 ## Academic Year 2023/2024
 
 - [Sistemi politici e amministrativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/sistemi-politici-e-amministrativi-0)  
