@@ -15,7 +15,7 @@ subtitle:
 ## Academic Year 2023/2024
 
 - [Sistemi politici e amministrativi](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/sistemi-politici-e-amministrativi-0)  
-  Bachelor degree [MOL](https://mol.cdl.unimi.it/it)
+  Bachelor degree [MOL](https://mol.cdl.unimi.it/it)  
   [Students' evaluation](assets/pdf/evaluation-mol-2023-2024.pdf#page=16)
 
 - Adjunct Professor of [Data analysis](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/data-analysis)  
