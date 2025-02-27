@@ -13,9 +13,8 @@ _Journal of Common Market Studies_. doi: [10.1111/jcms.13651](https://doi.org/10
 * Pellegata, A., Visconti, F. (2024) Mapping citizens, voters, and parties’ preferences on European solidarity across EU member states.  
 _Journal of Contemporary European Studies_. doi: [10.1080/14782804.2024.2355532](https://doi.org/10.1080/14782804.2024.2355532)
 
-* Biancalana, C., Ladini, R. and Visconti, F. (2023). Climate change in Italy: Towards the politicization of an issue.
-_Italian Political Science_. vol. 18, n. (3), pp. 177-193.  
-Available here:[https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/article/view/257)
+* Biancalana, C., Ladini, R. and Visconti, F. (2023). Climate change in Italy: Towards the politicization of an issue.  
+_Italian Political Science_. vol. 18, n. (3), pp. 177-193. doi:[https://doi.org/10.69101/IPS.2023.18.3.1](https://doi.org/10.69101/IPS.2023.18.3.1)
 
 * Natili, M., Ronchi, S., Visconti, F. (2023) Invisible Social Europe? Linking citizens’ awareness of European Cohesion Funds, individual power resources and support for the EU.  
 _Journal of European Social Policy_. doi: [10.1177/09589287231210727](https://doi.org/10.1177/09589287231210727)
