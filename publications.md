@@ -62,7 +62,7 @@ _Rivista Italiana di Politiche Pubbliche_. doi: [10.1483/87214](https://doi.org/
 
 * Special Issue "The Politicization of Climate Change in Italy" (2023) co-edited with Biancalana, C. and Ladini, R. on
 _Italian Political Science_, vol. 18, n. (3), pp. 177-394.  
-Available here:[https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)     
+Available here: [https://italianpoliticalscience.com](https://italianpoliticalscience.com/index.php/ips/issue/view/34/33)     
    
 * Debate section "EU Polity Building after the Russian Invasion of Ukraine" (2023) co-edited with Moise, A. D., Natili, M., Truchlewski, Z., and Wang, C. on the
 _Journal of European Public Policy_.
@@ -82,8 +82,11 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 
 ## Work in progress
 
+* Visconti, F., Ronchi, S. Perception of local public transport deprivation and support for climate change mitigation policies.   
+**Status**: _In progress_.
+
 * Bernardi, L., Visconti, F., Sabate-Domingo, O. and Morales, L. Governing Status and Intra-Party Disagreement in Europe.   
-**Status**: _Under revision after rejection_.
+**Status**: _In progress_.
 
 * Visconti, F., _A typology for the study of macro public opinion_.  
 **Status**: _In progress_.
