@@ -9,7 +9,7 @@ subtitle:
 - [Political science](https://www.luiss.it/cattedreonline/corso/T006/A/L22PPEBASE/2024)  
   Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics)
 
-- [Mixed Methods](https://phd.luiss.it/politics/)  
+- [Mixed Methods](https://francescovisconti.github.io/mmr2025/)  
   PhD programme in [Politics](https://phd.luiss.it/politics/)  
 
 ## Academic Year 2023/2024
