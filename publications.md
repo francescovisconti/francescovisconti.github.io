@@ -7,7 +7,13 @@ subtitle:
 
 ## Articles
 
-* Visconti, F., Pellegata, A. (2024) European solidarity takes the field: the dimensional structure of EU political competition after the polycrisis.  
+* Natili, M., Pellegata, A., Visconti, F. (_Forthcoming_) What Kind of Green Transition? Public Opinion Trade-Offs between Economic Growth, Ecological Sustainability and Equity.  
+_European Journal of Political Research_.
+
+* Visconti, F., Kyriazi, A. (_Forthcoming_) Emigration as an Electoral Issue: Public Concern and Political Choice in Eastern and Southern Europe.  
+_Government & Opposition_.
+
+* Visconti, F., Pellegata, A. (2025) European solidarity takes the field: the dimensional structure of EU political competition after the polycrisis.  
 _Journal of Common Market Studies_. doi: [10.1111/jcms.13651](https://doi.org/10.1111/jcms.13651)
 
 * Pellegata, A., Visconti, F. (2024) Mapping citizens, voters, and parties’ preferences on European solidarity across EU member states.  
