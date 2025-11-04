@@ -83,12 +83,15 @@ in Conti, N. and Marangoni F. _The challenge of coalition government: The Italia
 
 ## Reviews
 
+* Visconti, F. (2025) Review of Biancalana, C. and Ladini, R. (2024), _Emergenza lenta. La questione climatica in Italia tra politica, media e società_, Milano: Fondazione Feltrinelli. In _Italian Political Science Review_. Cambridge University Press, Cambridge.  
+doi: [10.1017/ipo.2025.10](https://doi.org/10.1017/ipo.2025.10).
+
 * Visconti, F. (2014) Unveiling the Myth of Central Bankers’ Neutrality. _The International Spectator_. Review of Adolph, C. (2013), _Bankers, Bureaucrats, and Central Bank Politics - The Myth of Neutrality_, Cambridge University Press, Cambridge.  
 doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.875831).
 
 ## Work in progress
 
-* Visconti, F., Ronchi, S. Perception of local public transport deprivation and support for climate change mitigation policies.   
+* Visconti, F. Perception of local public transport deprivation and support for climate change mitigation policies.   
 **Status**: _In progress_.
 
 * Bernardi, L., Visconti, F., Sabate-Domingo, O. and Morales, L. Governing Status and Intra-Party Disagreement in Europe.   
