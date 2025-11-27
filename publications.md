@@ -77,6 +77,13 @@ doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.22054
 
 ## Chapters
 
+
+* Visconti, F. (_Forthcoming_), Political trust and attitudes towards emigration across the EU,
+in Roos, C. and Kyriazi A. _Emigration and the State_, Manchester University Press, Manchester: United Kingdom.
+
+* Taddei, L., D'Ambrosio, G., and Visconti, F. (_Forthcoming_), Gli Online Probability Panel: caratteristiche, potenzialità e sviluppi,
+in _Italian Online Probability Panel Ideazione, progettazione e contesto del primo panel probabilistico online in Italia_, Franco Angeli, Milano: Italy.
+
 * Visconti, F. and Borghetto, E. (2015) Governing by revising. A study on post-enactment policy change,  
 in Conti, N. and Marangoni F. _The challenge of coalition government: The Italian Case_, Routledge, New York. [Available here](http://www.routledge.com/books/details/9781138815100/).
 
@@ -91,16 +98,16 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 
 ## Work in progress
 
-* Visconti, F. Perception of local public transport deprivation and support for climate change mitigation policies.   
+* Pellegata, A. and Visconti, F., EU solidarity, political attitudes and electoral behaviour.
+**Status**: _In progress_.
+  
+* Pellegata, A. and Visconti, F., Performance satisfaction, perceived EU fairness and support for social Europe.
 **Status**: _In progress_.
 
-* Bernardi, L., Visconti, F., Sabate-Domingo, O. and Morales, L. Governing Status and Intra-Party Disagreement in Europe.   
+* Visconti, F., Perception of local public transport deprivation and support for climate change mitigation policies.   
 **Status**: _In progress_.
 
 * Visconti, F., _A typology for the study of macro public opinion_.  
-**Status**: _In progress_.
-
-* Fiorelli, C., Visconti, F., and Bellucci, P., Follow the money. Policy outcomes and campaign financing in Italy.   
 **Status**: _In progress_.
 
 ### Media
