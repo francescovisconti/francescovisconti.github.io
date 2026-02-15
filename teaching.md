@@ -4,6 +4,21 @@ title: Teaching
 subtitle:
 ---
 
+
+## Academic Year 2025/2026
+
+- [Opinione Pubblica ed Elezioni](https://www.luiss.it/cattedreonline/corso/M368/0/LMGAPPC/2025)  
+  Master degree [Governo, Amministrazione e Politica](https://graduate.luiss.it/it/course/governo-amministrazione-e-politica/)
+
+
+- [Methods of Social Research](https://www.luiss.it/cattedreonline/corso/T022/0/L22PPEBASE/2025)  
+  Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics)
+
+
+- [Mixed Methods](https://francescovisconti.github.io/mmr2026/)  
+  PhD programme in [Politics](https://phd.luiss.it/politics/)  
+
+
 ## Academic Year 2024/2025
 
 - [Political science](https://www.luiss.it/cattedreonline/corso/T006/A/L22PPEBASE/2024)  
