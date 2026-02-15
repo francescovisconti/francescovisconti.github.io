@@ -16,6 +16,9 @@ _Government & Opposition_. doi: [10.1017/gov.2025.10031](https://doi.org/10.1017
 * Visconti, F., Pellegata, A. (2025) European solidarity takes the field: the dimensional structure of EU political competition after the polycrisis.  
 _Journal of Common Market Studies_. doi: [10.1111/jcms.13651](https://doi.org/10.1111/jcms.13651)
 
+* Kyriazi, A., Visconti, F. (2025) Free Movement and Welfare in the European Union: The Social Consequences of the Right to Exit.    
+_International Migration Review_. doi: [10.1177/01979183231185096](https://doi.org/10.1177/01979183231185096)
+
 * Pellegata, A., Visconti, F. (2024) Mapping citizens, voters, and parties’ preferences on European solidarity across EU member states.  
 _Journal of Contemporary European Studies_. doi: [10.1080/14782804.2024.2355532](https://doi.org/10.1080/14782804.2024.2355532)
 
@@ -27,9 +30,6 @@ _Journal of European Social Policy_. doi: [10.1177/09589287231210727](https://do
 
 * Visconti, F. (2023) Voting across borders? The electoral consequences of transnationalism.  
 _Journal of Elections, Public Opinion and Parties_. doi: [10.1080/17457289.2023.2241817](https://doi.org/10.1080/17457289.2023.2241817)
-
-* Kyriazi, A., Visconti, F. (2023) Free Movement and Welfare in the European Union: The Social Consequences of the Right to Exit.    
-_International Migration Review_. doi: [10.1177/01979183231185096](https://doi.org/10.1177/01979183231185096)
 
 * Moise, A. D., Natili, M., Truchlewski, Z., Visconti, F., and Wang, C. (2023). EU Polity Building after the Russian Invasion of Ukraine.  
 _Journal of European Public Policy_. doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.2205442)
