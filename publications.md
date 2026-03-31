@@ -7,7 +7,7 @@ subtitle:
 
 ## Articles
 
-* Natili, M., Pellegata, A., Visconti, F. (_Forthcoming_) What Kind of Green Transition? Public Opinion Trade-Offs between Economic Growth, Ecological Sustainability and Equity.  
+* Natili, M., Pellegata, A., Visconti, F. (2026) What Kind of Green Transition? Public Opinion Trade-Offs between Economic Growth, Ecological Sustainability and Equity.  
 _European Journal of Political Research_. doi: [10.1017/S1475676526100784](https://doi.org/10.1017/S1475676526100784)
 
 * Visconti, F., Kyriazi, A. (2026) Emigration as an Electoral Issue: Public Concern and Political Choice in Eastern and Southern Europe.  
