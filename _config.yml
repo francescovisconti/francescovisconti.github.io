@@ -43,6 +43,9 @@ round-avatar: true
 # then specify the following parameter
 #title-img: assets/img/icon-small.png
 
+description: "Francesco Visconti — Assistant Professor of Political Science at Luiss Guido Carli. Public opinion, European integration, and climate politics."
+share-img: "/assets/img/cover-home.jpg"
+keywords: "political science, public opinion, European Union, European solidarity, free movement, emigration, climate politics, survey experiments, Luiss"
 
 #####################################
 # --- Footer social media links --- #
