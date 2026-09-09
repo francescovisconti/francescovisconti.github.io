@@ -1,0 +1,48 @@
+/* --- Leggibilità del corpo testo --- */
+.post-heading h1,
+.intro-header .page-heading h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+article, .post-container {
+  font-size: 1.08rem;
+  line-height: 1.75;
+}
+
+/* --- Titoli di sezione con un segno di identità --- */
+h3 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #C8553D;
+  display: inline-block;
+}
+
+/* --- Blockquote per il riassunto della ricerca --- */
+blockquote {
+  border-left: 4px solid #122E4D;
+  background: #F4F6F9;
+  padding: 1rem 1.25rem;
+  font-style: normal;
+  color: #2B2B2B;
+}
+
+/* --- Liste di pubblicazioni: più aria, meno muro --- */
+article ul li {
+  margin-bottom: 0.9rem;
+}
+
+/* --- Link con sottolineatura discreta --- */
+article a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(27, 94, 140, 0.35);
+  transition: border-color .15s ease, color .15s ease;
+}
+article a:hover {
+  border-bottom-color: #C8553D;
+}
+
+/* --- Footer un po' più respirato --- */
+footer {
+  padding: 2rem 0;
+}
