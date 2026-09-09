@@ -1,9 +1,21 @@
 ---
 layout: page
 title: Publications
-subtitle:
+subtitle: 
 ---
 
+<a id="top"></a>
+
+**Jump to:**
+[Articles](#articles) ·
+[Edited volumes & special issues](#editor) ·
+[Book chapters](#chapters) ·
+[Book reviews](#reviews) ·
+[Work in progress](#work-in-progress) ·
+[Media & outreach](#media) ·
+[Other publications](#other-publications)
+
+---
 
 ## Articles
 
@@ -63,7 +75,9 @@ _Italian Political Science_, vol. 14, n. (3), pp. 188-205. [Available here](http
 	
 * Borghetto, E., Visconti, F. and Michieli, M. (2017) Government Agenda-Setting in Italian Coalitions. Testing the Partisan Hypothesis Using Italian Investiture Speeches 1979-2014.  
 _Rivista Italiana di Politiche Pubbliche_. doi: [10.1483/87214](https://doi.org/10.1483/87214).
-	
+
+<sub>[↑ Back to top](#top)</sub>
+
 ## Editor
 
 * Special Issue "The Politicization of Climate Change in Italy" (2023) co-edited with Biancalana, C. and Ladini, R. on
@@ -74,6 +88,7 @@ Available here: [https://italianpoliticalscience.com](https://italianpoliticalsc
 _Journal of European Public Policy_.
 doi: [10.1080/13501763.2023.2205442](https://doi.org/10.1080/13501763.2023.2205442)
 
+<sub>[↑ Back to top](#top)</sub>
 
 ## Chapters
 
@@ -89,6 +104,7 @@ in _Italian Online Probability Panel Ideazione, progettazione e contesto del pri
 * Visconti, F. and Borghetto, E. (2015) Governing by revising. A study on post-enactment policy change,  
 in Conti, N. and Marangoni F. _The challenge of coalition government: The Italian Case_, Routledge, New York. [Available here](http://www.routledge.com/books/details/9781138815100/).
 
+<sub>[↑ Back to top](#top)</sub>
 
 ## Reviews
 
@@ -97,6 +113,8 @@ doi: [10.1017/ipo.2025.10](https://doi.org/10.1017/ipo.2025.10).
 
 * Visconti, F. (2014) Unveiling the Myth of Central Bankers’ Neutrality. _The International Spectator_. Review of Adolph, C. (2013), _Bankers, Bureaucrats, and Central Bank Politics - The Myth of Neutrality_, Cambridge University Press, Cambridge.  
 doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.875831).
+
+<sub>[↑ Back to top](#top)</sub>
 
 ## Work in progress
   
@@ -109,7 +127,9 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 * Visconti, F., _A typology for the study of macro public opinion_.  
 **Status**: _In progress_.
 
-### Media
+<sub>[↑ Back to top](#top)</sub>
+
+## Media
 
 * Kyriazi, A., Visconti, F. (2023) Transnational experiences and solidarity: inclusion vs. inequality, _Eurac Science Blog_,  
 [Available here](https://www.eurac.edu/en/blogs/mobile-people-and-diverse-societies/transnational-experiences-and-solidarity-inclusion-vs-inequality). doi: [10.57708/b147024799](https://doi.org/10.57708/b147024799).
@@ -141,6 +161,7 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 * Pellegata, A., Visconti, F. (2018), Brutti, sporchi e cattivi? Le ragioni dei perdenti della globalizzazione e del voto che cambia tutto. _L'Economia -  Corriere della Sera_, 9 April 2018.  
 [Available here](http://www.centroeinaudi.it/component/jdownloads/send/5-il-centro-sui-media/1514-brutti-sporchi-e-cattivi-le-ragioni-dei-perdenti-della-globalizzazione-e-del-voto-che-cambia-tutto.html?option=com_jdownloads).
 
+<sub>[↑ Back to top](#top)</sub>
 
 ## Other publications
 
@@ -162,4 +183,4 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 * AA. VV. _La nuova classe politica in Europa_, CiRCAP Research News 2014, editor Luca Verzichelli, _Circap research News_,  
 [Available here](https://www.circap.unisi.it/wp-content/uploads/sites/67/2022/07/circap_research_news_150914_web.pdf).
 
-
+<sub>[↑ Back to top](#top)</sub>
