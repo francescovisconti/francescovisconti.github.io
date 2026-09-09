@@ -28,8 +28,8 @@ in Comparative and European Politics from the
 
 I am always happy to hear from students, co-authors, and journalists.
 
-- **Email**: fvisconti@luiss.it   <!-- ← metti l'indirizzo corretto -->
-- **Office**: Viale Romania 32, Rome — [book a meeting / office hours]
+- **Email**: [fvisconti@luiss.it](mailto:fvisconti@luiss.it)  
+- **Office**: Room 501, Viale Romania 32, Rome.
 - [Google Scholar](https://scholar.google.com/citations?user=CdHzHt0AAAAJ&hl=en) ·
   [ORCID](https://orcid.org/0000-0001-7672-4433) ·
   [GitHub](https://github.com/francescovisconti)
