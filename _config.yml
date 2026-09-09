@@ -130,17 +130,18 @@ paginate_path: "/blog/page:num/"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#ADD8E6"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#122E4D"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#122E4D"
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#ADD8E6"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+text-col: "#2B2B2B"
+link-col: "#1B5E8C"
+hover-col: "#C8553D"
+footer-col: "#122E4D"
+footer-text-col: "#C9D6E3"
+footer-link-col: "#FFFFFF"
+footer-hover-col: "#C8553D"
+mobile-theme-col: "#122E4D"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
