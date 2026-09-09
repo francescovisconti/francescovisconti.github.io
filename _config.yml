@@ -44,7 +44,7 @@ round-avatar: true
 #title-img: assets/img/icon-small.png
 
 description: "Francesco Visconti — Assistant Professor of Political Science at Luiss Guido Carli. Public opinion, European integration, and climate politics."
-share-img: "/assets/img/cover-home.jpg"
+#share-img: "/assets/img/cover-home.jpg"
 keywords: "political science, public opinion, European Union, European solidarity, free movement, emigration, climate politics, survey experiments, Luiss"
 
 #####################################
@@ -121,8 +121,6 @@ edit_page_button: false
 # See https://github.com/daattali/beautiful-jekyll/issues/765 to understand the issue this setting can solve
 navbar-var-length: true
 
-# The keywords to associate with your website, for SEO purposes
-keywords: "political science, data analysis, European Union, public opinion"
 
 #Setting to show blog on a different page
 paginate_path: "/blog/page:num/"
@@ -154,9 +152,6 @@ mobile-theme-col: "#122E4D"
 #navbar-img: "/assets/img/6525.png"
 #footer-img: "/assets/img/6525.png"
 #page-img: "/assets/img/43475.jpg"
-
-# Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
-mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
 site-css:
