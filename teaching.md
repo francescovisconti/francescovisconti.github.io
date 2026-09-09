@@ -1,9 +1,33 @@
 ---
 layout: page
 title: Teaching
-subtitle:
+subtitle: Public opinion, elections, and how to study them
 ---
 
+I teach research methods and public opinion, at every level from
+undergraduates to PhD students. My courses share one conviction: methods are
+not a hurdle to clear before the interesting part begins — they *are* the
+interesting part, because they decide what we are allowed to claim.
+
+Course materials for my PhD teaching are openly available
+([Mixed Methods 2026](https://francescovisconti.github.io/mmr2026/)).
+I welcome thesis proposals in public opinion, electoral behaviour,
+European and climate politics - see each course page for the criteria.
+
+## Academic Year 2026/2027
+
+- [Opinione pubblica ed elezioni](https://www.luiss.it/it/ateneo/governance/faculty/cattedre-online/m368/0/lm25gappc/2026/opinione-pubblica-ed-elezioni)  
+Master degree [Governo, Amministrazione e Politica](https://graduate.luiss.it/it/course/governo-amministrazione-e-politica/) — 48 hours, 6 ECTS, taught in Italian.  
+Also offered on the [LM26GPACP](https://www.luiss.it/it/ateneo/governance/faculty/cattedre-online/gpa11/0/lm26gpacp/2026/opinione-pubblica-ed-elezioni) master degree.  
+Where political opinions come from and how they turn into votes: identities and cleavages, spatial and valence competition, issue yield, personalisation, and what all this means for representation. Students present published research and analyse original survey data.
+
+- [Methods of Social Research](https://www.luiss.it/en/university/governance/faculty/teaching/t022/a/l25ppebase/2026/methods-social-research)  
+Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics) — channels A and B, 64 hours, 8 ECTS, co-taught with Antonio Zinilli.  
+A full pass through the research cycle, from question to write-up. The first half covers quantitative design and data analysis in Stata; the second half covers qualitative design, interviews, focus groups, and observation.
+
+- [Grand Challenge (Module II)](https://www.luiss.it/en/university/governance/faculty/teaching/ppegc02/a/l25ppebase/2026/grand-challenge-module-ii)  
+Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics) — 24 hours, 2 ECTS.  
+The applied companion to Methods of Social Research. Students run a small mixed-methods project on **AI and academia**: they write the research question, build the survey and the interview guide, collect their own data, and deliver a group research dossier.
 
 ## Academic Year 2025/2026
 
@@ -35,7 +59,7 @@ subtitle:
 
 - Adjunct Professor of [Data analysis](https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2024/data-analysis)  
   Bachelor degree [IPLE](https://iple.cdl.unimi.it/en)  
-  [Students' evaluation](assets/pdf/evaluation-2023-2024.pdf#page=16)
+  [Students' evaluation](/assets/pdf/evaluation-2023-2024.pdf#page=16)
   
 ## Academic Year 2022/2023
 
