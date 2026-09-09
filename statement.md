@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-subtitle: European integration, mobility, and the politics of a warming continent
+subtitle: European integration, mobility, and the politics of climate change
 ---
 
 > I study what citizens want from the European Union — and what happens to
