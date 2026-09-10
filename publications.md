@@ -117,7 +117,13 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 <sub>[↑ Back to top](#top)</sub>
 
 ## Work in progress
-  
+
+* Visconti, F. and Cassani, A., Data Analysis for Political Science: An introduction using Excel and R.
+**Status**: _In writing_.
+
+* Pellegata, A. and Visconti, F., Europa sociale. La solidarietà europea tra preferenze e scelte di voto.
+**Status**: _In writing_.
+
 * Pellegata, A. and Visconti, F., Performance satisfaction, perceived EU fairness and support for social Europe.
 **Status**: _Under review_.
 
