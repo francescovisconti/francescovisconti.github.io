@@ -26,7 +26,7 @@ navbar-links:
     - Publications: "publications"
   Teaching: "teaching"
   CV: assets/pdf/Curriculum_Vitae.pdf
-  #Blog: blog/index.html
+  Blog: blog/index.html
 
 ################
 # --- Logo --- #
