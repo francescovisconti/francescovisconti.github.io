@@ -17,8 +17,7 @@ politicisation of climate change.
 
 Methodologically, I work mostly with comparative survey data — including surveys
 I have helped design and field — survey experiments, and quantitative text
-analysis. I use R and I care about replicable research.
-
+analysis.
 Before joining Luiss, I was a researcher at the Italian National Research
 Council, the University of Milan, and the University of Leicester. I hold a PhD
 in Comparative and European Politics from the
