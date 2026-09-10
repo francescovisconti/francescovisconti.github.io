@@ -4,16 +4,6 @@ title: Teaching
 subtitle: Public opinion, elections, and how to study them
 ---
 
-I teach research methods and public opinion, at every level from
-undergraduates to PhD students. My courses share one conviction: methods are
-not a hurdle to clear before the interesting part begins — they *are* the
-interesting part, because they decide what we are allowed to claim.
-
-Course materials for my PhD teaching are openly available
-([Mixed Methods 2026](https://francescovisconti.github.io/mmr2026/)).
-I welcome thesis proposals in public opinion, electoral behaviour,
-European and climate politics - see each course page for the criteria.
-
 ## Academic Year 2026/2027
 
 - [Opinione pubblica ed elezioni](https://www.luiss.it/it/ateneo/governance/faculty/cattedre-online/m368/0/lm25gappc/2026/opinione-pubblica-ed-elezioni)  
