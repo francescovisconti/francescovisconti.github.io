@@ -6,7 +6,7 @@ subtitle: Public opinion, European integration, and the politics of climate chan
 
 I am **Assistant Professor (RTT) of Political Science** at the
 [Department of Political Science](https://scienzepolitiche.luiss.it/) of
-[Luiss Guido Carli](https://www.luiss.it) in Rome and a member of [CISE](https://cise.luiss.it/), Centro Italiano Studi Elettorali.
+[Luiss Guido Carli](https://www.luiss.it) in Rome and a member of [CISE](https://cise.luiss.it/), the _Centro Italiano Studi Elettorali_.
 
 My research asks how European citizens respond to open borders and to a climate
 crisis no country can face alone — and what those responses mean for parties,
