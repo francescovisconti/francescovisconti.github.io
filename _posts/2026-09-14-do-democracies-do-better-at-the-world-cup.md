@@ -40,7 +40,7 @@ So I went a bit further with the analysis.
 
 This post walks through the whole thing: the theory, the data, the
 models, and (importantly) the reasons not to over-read the results. All
-the code is [here](https://github.com/francescovisconti/worldcup-democracy/upload/main), so you can reproduce or improve any of it.
+the code is [here](https://github.com/francescovisconti/worldcup-democracy), so you can reproduce or improve any of it.
 
 ## Two competing theories
 
@@ -374,7 +374,7 @@ this carefully, but comparisons across such different worlds carry real
 uncertainty.
 
 **Very few events.** Twenty-three champions is not a large sample by any
-standard. With a slightly different specification and the winning
+standard. With a slightly different specification, the winning
 model will change its mind.
 
 **Nothing here refutes sportwashing.** The theory is about *investment*
