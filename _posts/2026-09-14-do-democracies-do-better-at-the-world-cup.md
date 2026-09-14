@@ -15,13 +15,11 @@ sport. Before that, Russia 2018. And before that, most notoriously,
 Argentina 1978, hosted and won under a military junta that was, at that
 very moment, disappearing its opponents.[^1]
 
-So here is a question that a political scientist can actually answer
-with data: **does the type of political regime affect a country’s
+So here is a political science question: **does the type of political regime affect a country’s
 chances of qualifying for — and winning — the World Cup?**
 
 I did not arrive at this through the literature. I arrived at it on the
-sofa, and then did what everyone does: I typed the question into a
-search engine. The first thing that came back was a piece in *The
+sofa while preparing a summer school class and watching a game. The first thing that came back from a quick web search was a piece in *The
 Conversation* by John A. Tures, a political scientist at LaGrange
 College, published a few weeks before the 2026 tournament: [“Does the
 World Cup favor democratic or autocratic nations? I did some number
@@ -34,18 +32,17 @@ democracies, and from 1974 onwards only two champions were anything
 other than free — Argentina in 1978 and Brazil in 1994. He reads the
 pattern as good news for democracies.
 
-That was enough to make me want to check it properly. Descriptive counts
-of finalists are a perfectly respectable way to start, but they leave
-open the question that any political scientist will immediately ask: is
-this democracy doing the work, or is it wealth, population and the
-geography of FIFA’s qualification slots, all of which happen to travel
-with democracy? So I went and built the dataset.
+That was enough to make me want to dig a bit deeper. Descriptive counts 
+of finalists are a perfectly respectable way to start, but they open even more questions: is 
+it democracy doing the work, or is it wealth, population and the 
+geography of FIFA’s qualification slots, all of which happen to travel with democracy?
+So I went a bit further with the analysis.
 
 This post walks through the whole thing: the theory, the data, the
 models, and (importantly) the reasons not to over-read the results. All
-the code is here, so you can reproduce or contest any of it.
+the code is [here](https://github.com/francescovisconti/worldcup-democracy/upload/main), so you can reproduce or improve any of it.
 
-## Two theories that predict opposite things
+## Two competing theories
 
 The interesting thing about this question is that plausible arguments
 run in both directions.
@@ -371,19 +368,13 @@ handles some of that crudely; it does not handle the fact that FIFA’s
 qualification slots have historically favoured exactly the regions where
 democracy is oldest.
 
-**Reverse causation is not implausible.** The literature on sport and
-authoritarian politics runs the arrow the other way — hosting a
-tournament changes what a regime does, rather than the regime changing
-the football. The 1978 study cited above documents repression that
-*intensified* around the tournament.
-
 **Measurement across a century is heroic.** We are applying a single
 democracy index to Uruguay in 1930 and to Canada in 2026. V-Dem does
 this carefully, but comparisons across such different worlds carry real
 uncertainty.
 
 **Very few events.** Twenty-three champions is not a large sample by any
-standard. Give me a slightly different specification and the winning
+standard. With a slightly different specification and the winning
 model will change its mind.
 
 **Nothing here refutes sportwashing.** The theory is about *investment*
@@ -399,7 +390,7 @@ Across ninety-six years and twenty-three tournaments, World Cup
 participants have been more democratic than the world average in every
 single edition, and finalists more democratic than the average
 participant. The hypothesis that autocracy is an *advantage* on the
-pitch — H1a — finds no support at all.
+pitch — H1a — finds no support.
 
 But the version of H1b that survives is a modest one. Most of the
 participation gap is explained by wealth and population, not democracy
