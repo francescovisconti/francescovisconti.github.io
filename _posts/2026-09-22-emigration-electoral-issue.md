@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The other side of the migration coin
-subtitle: What happens at the ballot box when voters worry about the people leaving
-tags: [free movement, emigration, public opinion, elections, European Union]
+subtitle: Who worries about the people leaving, and what happens at the ballot box when they do
+tags: [free movement, emigration, public opinion, political trust, elections, European Union]
 thumbnail-img: /assets/img/posts/emigration.jpg
 readtime: true
 ---
@@ -12,12 +12,12 @@ decades of research have established that attitudes towards newcomers predict
 vote choice, welfare preferences and Euroscepticism, and that radical-right
 parties have built much of their success on the issue.
 
-We know almost nothing about the other direction. Yet for roughly half the
+We know much less about the other direction. Yet for roughly half the
 European Union — the eastern and southern periphery — the politically salient
-migration story is not who is arriving. It is who is leaving, and not coming
+migration story is not (only) who is arriving. It is who is leaving, and not coming
 back.
 
-## A question nobody had the data for
+## The question
 
 Free movement is a founding promise of the EU and remains genuinely popular. But
 it has two faces, and they are politicised in different places. In receiving
@@ -39,10 +39,11 @@ rates against election results — which cannot distinguish between two very
 different mechanisms: the people who leave were different voters, or the people
 who stay became angrier.
 
-We used individual-level survey data instead. The source is an original survey
+Togther with my friend and colleague [Anna Kyriazi](https://www.unimi.it/it/ugov/person/anna-kyriazi) from the University of Milan, 
+we used individual-level survey data instead. The source is an original survey
 fielded by Gallup in the summer of 2021 across fifteen European countries as part
 of the SOLID project, funded by an ERC Synergy Grant. Around 1,000 respondents
-per country. We restricted the analysis to the nine countries where emigration is
+per country. We restricted the analysis to the nine countries in the sample where emigration is
 actually a live concern: Greece, Hungary, Ireland, Italy, Latvia, Poland,
 Portugal, Romania and Spain.
 
@@ -64,11 +65,11 @@ no more likely to abstain or spoil their ballot than anyone else.
 
 The conservative result makes sense once you sit with it. Conservative parties in
 these countries have generally championed market liberalisation, austerity and
-privatisation, the policies most plausibly blamed for the brain drain in the first
+privatisation, the policies plausibly blamed for the brain drain in the first
 place. Voters who feel left behind by departure punish the parties they associate
 with the departure.
 
-## Trust is the mechanism
+## Is trust the mechanism?
 
 The finding I find most interesting concerns incumbents, and it only appears when
 you stop treating political trust as a nuisance variable.
@@ -97,7 +98,7 @@ the standard story is not wrong, just partial.
 
 But emigration concern also helps SYRIZA in Greece, Lewica in Poland, the Five
 Star Movement in Italy, and a socialist-led alliance in Hungary. And in Hungary it
-significantly *hurts* Fidesz — a radical-right party that has governed since 2010
+significantly *hurts* Fidesz — a radical-right party that has governed from 2010 to 2026
 and presided over a great deal of emigration.
 
 The pattern underneath the noise is not ideological. It is positional. Emigration
@@ -109,10 +110,65 @@ owner and more like an available grievance — a stick that any party outside
 government can pick up, provided the local conditions are right. Which parties
 pick it up, and whether it sticks, has to be established case by case.
 
+## Where the concern comes from in the first place
+
+All of that treats worry about emigration as the thing doing the explaining. It 
+leaves open the prior question: who is worried, and why?
+
+I take that up in a chapter for *Emigration and the State*, edited by Christof
+Roos and Anna Kyriazi
+([Manchester University Press](https://manchesteruniversitypress.co.uk/9781526182784/)).
+Same survey, but all fifteen countries rather than the nine — so Austria,
+Finland, France, Germany, the Netherlands and Sweden are back in, and concern
+about emigration becomes the outcome rather than the predictor.
+
+The expectation there was, again, the intuitive one. Political trust should work
+as a heuristic for risk: if you think your institutions are competent, you should
+worry less about what free movement is doing to your country. That is broadly how
+trust behaves in the immigration literature, where trusting citizens perceive
+less threat from newcomers.
+
+The data say the opposite. Higher political trust goes with *more* concern about
+emigration, not less, and the association holds after controlling for age,
+gender, education, household finances, ideology and identity. It shows up in
+thirteen of the fifteen countries — Germany and Greece are the exceptions —
+across countries with very different migration histories, from long-standing
+destinations in the northwest to the new sending countries of the east.
+
+One reading is that trusting your national political system is bound up with
+valuing the national community, and if you value it, people leaving it registers
+as a loss rather than as a career move. [Krastev and Holmes](https://www.penguin.co.uk/books/308740/the-light-that-failed-by-holmes-ivan-krastev-and-stephen/9780141988108) make a version of this
+argument: where the young leave in large numbers, those who stay end up feeling
+like losers regardless of how well they are personally doing. Consistent with
+that, the association is strongest among right-wing respondents. What it is *not*
+about is identity in the narrow sense — the pattern is just as clear among people
+who feel European as among those who feel exclusively national, which I did not
+expect.
+
+Put the two studies side by side and political trust does double duty. It raises
+the level of concern about emigration, and it is the condition under which that
+concern turns into a vote against the government. The trusting citizen both
+worries more and punishes more.
+
+I want to be careful about how much weight that carries. They are two analyses
+with different samples and different dependent variables, not a single tested
+causal chain, and both rest on one cross-section from one summer. But the
+direction is suggestive, and it points somewhere uncomfortable for the standard
+account. The political risk of emigration does not sit with the alienated and the
+cynical. It sits with the citizens who still believe the state can do something.
+
 ---
+
+Two publications lie behind this post.
 
 The article is *Emigration as an Electoral Issue: Public Concern and Political
 Choice in Eastern and Southern Europe*, written with Anna Kyriazi and published
 open access in *Government and Opposition*
-([DOI](https://doi.org/10.1017/gov.2025.10031)). The research was supported by the
-European Research Council under Synergy Grant 810356 (SOLID).
+([DOI](https://doi.org/10.1017/gov.2025.10031)).
+
+The chapter is *Political Trust and Attitudes towards Emigration across the EU*,
+forthcoming in Christof Roos and Anna Kyriazi (eds), *Emigration and the State*
+([Manchester University Press](https://manchesteruniversitypress.co.uk/9781526182784/)).
+
+Both draw on the survey fielded by Gallup in 2021 for the SOLID project,
+supported by the European Research Council under Synergy Grant 810356.
