@@ -3,7 +3,7 @@ layout: post
 title: What kind of energy transition do Europeans actually want?
 subtitle: 
 tags: [climate, public opinion, European Union, survey experiments]
-thumbnail-img: /assets/img/posts/energy-transition.jpg
+thumbnail-img: /assets/img/energy-transition.jpg
 readtime: true
 ---
 
