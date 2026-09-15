@@ -3,7 +3,7 @@ layout: post
 title: The other side of the migration coin
 subtitle: Who worries about the people leaving, and what happens at the ballot box when they do
 tags: [free movement, emigration, public opinion, political trust, elections, European Union]
-thumbnail-img: /assets/img/posts/emigration.jpg
+thumbnail-img: /assets/img/emigration.jpg
 readtime: true
 ---
 
