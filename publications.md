@@ -99,7 +99,7 @@ in Reinl, A.K., and Nicoli, F. _The Routledge Handbook of European Solidarity_, 
 in Roos, C. and Kyriazi A. _Citizens Gone_, Manchester University Press, Manchester: United Kingdom. [Available here](https://manchesteruniversitypress.co.uk/9781526182784/).
 
 * Taddei, L., D'Ambrosio, G., and Visconti, F. (2026), Gli Online Probability Panel: caratteristiche, potenzialità e sviluppi,
-in _Italian Online Probability Panel Ideazione, progettazione e contesto del primo panel probabilistico online in Italia_, Franco Angeli, Milano: Italy. [Available here](http://www.routledge.com/books/details/9781138815100/](https://series.francoangeli.it/index.php/oa/catalog/book/1653).
+in _Italian Online Probability Panel Ideazione, progettazione e contesto del primo panel probabilistico online in Italia_, Franco Angeli, Milano: Italy. [Available here](https://series.francoangeli.it/index.php/oa/catalog/book/1653).
 
 * Visconti, F. and Borghetto, E. (2015) Governing by revising. A study on post-enactment policy change,  
 in Conti, N. and Marangoni F. _The challenge of coalition government: The Italian Case_, Routledge, New York. [Available here](http://www.routledge.com/books/details/9781138815100/).
