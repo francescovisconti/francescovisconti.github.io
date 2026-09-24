@@ -16,7 +16,7 @@ Lorenzo De Sio, director of CISE, chaired the session, and Marc Lazar, who holds
 
 My contribution was a set of additional observations on the Barometer, comparing France and Italy with regression models on the individual-level data. This post summarises them.
 
-## What political trust is, and why it matters
+## What political trust is and why it matters
 
 Following Easton (1975), political trust can be thought of as citizens' *reservoir of goodwill* towards the actors and institutions of democratic governance. It has been declining in several large, established democracies, and low trust is often seen as eroding the quality of democracy: it favours challengers at the extremes and may depress participation. At the same time, most citizens of democratic countries remain committed to democracy as a system of government. The problem is less with democracy as an idea than with the goodwill extended to those who run it.
 
@@ -47,10 +47,10 @@ Four patterns stand out.
 
 1. **Social position is by far the strongest predictor** in both countries. Respondents who place themselves at the top of the social ladder trust politics much more than those at the bottom.
 2. **Structural factors matter more in France.** Education, age, sex and living in a disadvantaged territory all shape trust among French respondents, while in Italy only age has a clear (negative) effect.
-3. **Political cues work in opposite directions.** In France, respondents further to the right trust politics *less*; in Italy they trust it *more*. The same ideological position produces opposite attitudes depending on the national political context.
+3. **Political cues work in opposite directions.** In France, respondents further to the right trust politics *less*, while in Italy they trust it *more*. The same ideological position produces opposite attitudes depending on the national political context.
 4. **Emotions matter.** Suspicion and weariness go with lower trust in both countries, and sadness and fear do so in France. Confidence and enthusiasm go with higher trust.
 
-Trust is also a matter of **perceived intergenerational mobility**. Respondents were asked to compare their situation with that of their parents at the same age, on a scale from 0 (worse) to 10 (better). Those who feel they have done worse than their parents trust politics less, and those who feel they have done better trust it more, in both countries.
+Trust is also a matter of **perceived intergenerational mobility**. Respondents were asked to compare their situation with that of their parents at the same age, on a scale from 0 (worse) to 10 (better). In both countries, those who feel they have done worse than their parents trust politics less, and those who feel they have done better trust it more.
 
 | Average political trust (0–1) | Below parents' position | Country average | Above parents' position |
 |:--|--:|--:|--:|
@@ -61,7 +61,7 @@ Trust is also a matter of **perceived intergenerational mobility**. Respondents 
 
 ## Public mood follows the same lines
 
-The same structure appears when we look at *positive public mood*, that is, the positive feelings respondents associate with their current state of mind (Figure 2). Social position and the ease with which people make ends meet are the strongest positive predictors. In France, older and more educated respondents, as well as those living in disadvantaged areas, report a less positive mood. Political cues are again inverted between the two countries.
+The same pattern appears for *positive public mood*, that is, the positive feelings respondents associate with their current state of mind (Figure 2). Social position and the ease with which people make ends meet are the strongest positive predictors. In France, older and more educated respondents, as well as those living in disadvantaged areas, report a less positive mood. Political cues are again inverted between the two countries.
 
 There is also a new element: **artificial intelligence as a social risk**. Respondents who see AI as a risk for employment rather than an opportunity report a less positive mood, in France and in Italy alike.
 
