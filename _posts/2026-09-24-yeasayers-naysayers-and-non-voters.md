@@ -3,7 +3,7 @@ layout: post
 title: "Yeasayers, naysayers and non-voters"
 subtitle: "Italians justifications for their vote in the 2026 referendum on the judiciary"
 tags: [referendums, public opinion, Italy, text analysis, survey research]
-share-img: /assets/img/posts/referendum-2026/registers-yes-no.png
+thumbnail-img: /assets/img/posts/referendum-2026/registers-yes-no.png
 share-description: "Two thousand open-ended justifications from the March 2026 Italian constitutional referendum: the two camps argued from different registers but the sharpest divide ran between voters and non-voters."
 ---
 
