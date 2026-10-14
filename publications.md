@@ -7,6 +7,7 @@ subtitle:
 <a id="top"></a>
 
 **Jump to:**
+[Books under contract](#books) ·
 [Articles](#articles) ·
 [Edited volumes & special issues](#editor) ·
 [Book chapters](#chapters) ·
@@ -16,6 +17,16 @@ subtitle:
 [Other publications](#other-publications)
 
 ---
+
+## Books under contract
+
+* Pellegata, A. and Visconti, F., _Europa sociale. La solidarietà europea tra preferenze e scelte di voto_ (provisional title). Il Mulino.  
+**Status**: _Under contract_, manuscript due February 2027.
+
+* Visconti, F. and Cassani, A., _Political Science Research Methods_ (provisional title). Routledge.  
+**Status**: _Under contract_, manuscript due December 2026.
+
+<sub>[↑ Back to top](#top)</sub>
 
 ## Articles
 
@@ -118,17 +129,14 @@ doi: [10.1080/03932729.2014.875831](http://dx.doi.org/10.1080/03932729.2014.8758
 
 ## Work in progress
 
-* Visconti, F. and Cassani, A., Data Analysis for Political Science: An introduction using Excel and R.
-**Status**: _In writing_.
-
-* Pellegata, A. and Visconti, F., Europa sociale. La solidarietà europea tra preferenze e scelte di voto.
-**Status**: _In writing_.
-
 * Pellegata, A. and Visconti, F., Performance satisfaction, perceived EU fairness and support for social Europe.
 **Status**: _Under review_.
 
 * Visconti, F., Perception of local public transport deprivation and support for climate change mitigation policies.   
 **Status**: _Under review_.
+
+* Visconti, F., _Yeasayers, Naysayers, and Non-Voters: Argumentative Repertoires in the 2026 Italian Constitutional Referendum on the Judiciary_. Presented at the SISP Annual Conference 2026 ([blog post](/2026-09-24-yeasayers-naysayers-and-non-voters/)).  
+**Status**: _In progress_.
 
 * Visconti, F., _A typology for the study of macro public opinion_.  
 **Status**: _In progress_.

@@ -19,6 +19,10 @@ A full pass through the research cycle, from question to write-up. The first hal
 Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics) — 24 hours, 2 ECTS.  
 The applied companion to Methods of Social Research. Students run a small mixed-methods project on **AI and academia**: they write the research question, build the survey and the interview guide, collect their own data, and deliver a group research dossier.
 
+- Quantitative Methods Masterclass  
+PhD programme in [Politics](https://phd.luiss.it/politics/) — second year, fall semester, 12 hours, 3 ECTS.  
+An operational masterclass in quantitative methods for political science and political sociology: doctoral students apply statistical tools directly to their own research projects and discuss the methodological choices behind them.
+
 ## Academic Year 2025/2026
 
 - [Opinione Pubblica ed Elezioni](https://www.luiss.it/cattedreonline/corso/M368/0/LMGAPPC/2025)  
@@ -30,7 +34,7 @@ The applied companion to Methods of Social Research. Students run a small mixed-
 
 
 - [Mixed Methods](https://francescovisconti.github.io/mmr2026/)  
-  PhD programme in [Politics](https://phd.luiss.it/politics/)  
+  PhD programme in [Politics](https://phd.luiss.it/politics/) — spring semester. Course materials are openly available.  
 
 
 ## Academic Year 2024/2025
@@ -39,7 +43,21 @@ The applied companion to Methods of Social Research. Students run a small mixed-
   Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics)
 
 - [Mixed Methods](https://francescovisconti.github.io/mmr2025/)  
-  PhD programme in [Politics](https://phd.luiss.it/politics/)  
+  PhD programme in [Politics](https://phd.luiss.it/politics/) — spring semester.  
+
+## Supervision
+
+- **Thesis supervisor** at Luiss: 9 BA theses in _Politics: Philosophy and Economics_ (in English) and 1 MA thesis in _Governo, Amministrazione e Politica_.
+- **Thesis co-supervisor** (_correlatore_): 4 theses.
+- **PhD examination committees**, Luiss Guido Carli: Costanza Marcellino (February 2026) and Zeynep Mentesoglu Tardivo (July 2025).
+
+I welcome thesis proposals in public opinion, electoral behaviour, European and climate politics.
+
+## Orientation and outreach teaching
+
+- **July 2026** — Lectures (4 hours) at the Luiss _Summer School Orientation 4_ for prospective students.
+- **February 2026** — _What is political science?_ (3 hours), mini-course for a visiting delegation of Chinese students, Luiss International Orientation.
+- **August 2025** — _Cos'è la scienza politica?_, Luiss _Orientation 3 Summer School_ for prospective students.
 
 ## Academic Year 2023/2024
 

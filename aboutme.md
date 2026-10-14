@@ -18,6 +18,16 @@ politicisation of climate change.
 Methodologically, I work mostly with comparative survey data — including surveys
 I have helped design and field — survey experiments, and quantitative text
 analysis.
+
+At Luiss I am a member of [CISE](https://cise.luiss.it/), the _Centro Italiano
+Studi Elettorali_, and of the Luiss team of [MEDem](/projects#medem), the European
+research infrastructure on electoral democracy included in the ESFRI Roadmap 2026.
+I am the Department's delegate for software and its academic representative for
+the QS Rankings by Subject. I am a member of the Italian Political Science
+Association (SISP) and of its Standing Groups
+[POPE](https://standinggroups.sisp.it/pope/) and
+[METRISP](https://standinggroups.sisp.it/metrisp/).
+
 Before joining Luiss, I was a researcher at the Italian National Research
 Council, the University of Milan, and the University of Leicester. I hold a PhD
 in Comparative and European Politics from the
