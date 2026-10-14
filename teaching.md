@@ -19,7 +19,7 @@ A full pass through the research cycle, from question to write-up. The first hal
 Bachelor degree [Politics: Philosophy and Economics](https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/politics-philosophy-economics) — 24 hours, 2 ECTS.  
 The applied companion to Methods of Social Research. Students run a small mixed-methods project on **AI and academia**: they write the research question, build the survey and the interview guide, collect their own data, and deliver a group research dossier.
 
-- Quantitative Methods Masterclass  
+- [Quantitative Methods Masterclass](https://francescovisconti.github.io/qmm2627/)  
 PhD programme in [Politics](https://phd.luiss.it/politics/) — second year, fall semester, 12 hours, 3 ECTS.  
 An operational masterclass in quantitative methods for political science and political sociology: doctoral students apply statistical tools directly to their own research projects and discuss the methodological choices behind them.
 
