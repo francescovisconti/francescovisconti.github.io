@@ -1522,7 +1522,7 @@ font-size: 0.95em;
 (weeks 1–6)</h3>
 <h4 class="author">Francesco Visconti · Luiss Guido Carli · PPE · A.Y.
 2026/2027</h4>
-<h4 class="date">Last updated: 02 October 2026</h4>
+<h4 class="date">Last updated: 14 October 2026</h4>
 
 </div>
 
@@ -1539,15 +1539,15 @@ document.addEventListener("click", function (e) {
 <div id="how-to-use-this-tutorial" class="section level1">
 <h1>How to use this tutorial</h1>
 <p>This tutorial follows the quantitative part of <em>Methods of Social
-Research</em> week by week. Each section takes the logic of one week of
-lectures and turns it into a short, runnable analysis in
-<strong>DAX</strong>, the browser-based environment Luiss uses for this
-course. You type Stata-style commands; DAX translates them into R behind
-the scenes and returns formatted output.</p>
+Research</em> week by week, in the order of the lectures. Each section
+takes the logic of one lecture and turns it into a short, runnable
+analysis in <strong>DAX</strong>, the browser-based environment Luiss
+uses for this course. You type Stata-style commands; DAX translates them
+into R behind the scenes and returns formatted output.</p>
 <p>Every section has the same structure:</p>
 <ul>
-<li><strong>The idea</strong>: the methodological point of the week, in
-a few lines.</li>
+<li><strong>The idea</strong>: the methodological point of the lecture,
+in a few lines.</li>
 <li><strong>Code blocks</strong> you can copy with one click and paste
 into DAX.</li>
 <li><strong>What you should see</strong>: the key numbers, so you can
@@ -1561,7 +1561,8 @@ you can open after you have tried.</li>
 <p><strong>The best way to use this page.</strong> Keep it open next to
 DAX. Copy one block, run it, and read the output <em>before</em> moving
 on. Do not run the whole section at once: the point is to understand
-each step, not to collect output.</p>
+each step, not to collect output. For the midterm, the sections on Weeks
+5 and 6 are also a good way to practise reading DAX output.</p>
 </div>
 <div id="getting-started-in-dax" class="section level2">
 <h2>Getting started in DAX</h2>
@@ -1595,9 +1596,9 @@ survival kit</a> at the end first.</p>
 </div>
 <div id="the-datasets" class="section level2">
 <h2>The datasets</h2>
-<p>All datasets are in the course data folder and load with
-<code>use &quot;@DATA@/&lt;file&gt;&quot;</code>. You never need to download
-them.</p>
+<p>All datasets are in the course data repository and load with
+<code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/&lt;file&gt;&quot;, clear</code>.
+You never need to download them.</p>
 <table>
 <colgroup>
 <col width="33%" />
@@ -1624,29 +1625,48 @@ them.</p>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td><code>vignettes.dta</code>, <code>battery.dta</code>,
-<code>chile_samples.dta</code></td>
-<td>a respondent; a respondent; one simulated sample (500)</td>
+<td><code>vignettes.dta</code>, <code>battery.dta</code></td>
+<td>a respondent (vignettes, a Likert battery)</td>
 </tr>
 <tr class="even">
+<td>3</td>
+<td><code>chile_samples.dta</code>, <code>afghan_village.dta</code></td>
+<td>one simulated sample (500); an Afghan village (1,864)</td>
+</tr>
+<tr class="odd">
 <td>4</td>
 <td><code>resume.dta</code>, <code>social.dta</code></td>
 <td>a fictitious CV (4,870); a Michigan voter (305,866)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>4</td>
 <td><code>minwage.dta</code>, <code>gini_polarization.dta</code></td>
 <td>a fast-food restaurant (358); a US Congress (33)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>5</td>
 <td><code>face.dta</code></td>
 <td>a US Senate race, 2000–2006 (119)</td>
 </tr>
+<tr class="even">
+<td>5</td>
+<td><code>gss2021_lab.dta</code>, <code>ches2024_lab.dta</code></td>
+<td>the in-class lab (Lecture 5.2): a US adult; a European party</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><code>gss2021_marital.dta</code></td>
+<td>a US adult in the 2021 General Social Survey (3,624)</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td><code>gss2021_lab.dta</code></td>
+<td>a US adult in the 2021 General Social Survey (3,500)</td>
+</tr>
 <tr class="odd">
 <td>6</td>
-<td><code>women.dta</code></td>
-<td>an Indian village (322)</td>
+<td><code>msr_survey.dta</code></td>
+<td>a student in our class survey (41)</td>
 </tr>
 </tbody>
 </table>
@@ -1740,10 +1760,11 @@ tab2 winner finalist</code></pre>
 <p><strong>Always check a variable you just built.</strong>
 <code>tab2 winner finalist</code> confirms that <code>outcome</code>
 means what you think it means. <code>recode</code> leaves missing values
-missing, which is what you want. Had you built <code>regime</code> with
-comparisons such as <code>polity2 &gt;= 6</code>, every country with no
-data at all would have been classified as a democracy, because Stata
-treats a missing value as larger than any number.</p>
+missing, which is what you want. In DAX, build categories and dummies
+with <code>recode</code>, never with comparisons such as
+<code>generate dem = (polity2 &gt;= 6)</code>: the result is TRUE/FALSE
+rather than 0/1, value labels do not apply, and in desktop Stata a
+missing value would even count as larger than any number.</p>
 </div>
 </div>
 <div id="test-the-hypothesis" class="section level2">
@@ -1765,7 +1786,8 @@ over time will correlate, whether or not they are related. A
 research-design problem appeared before any statistics.</li>
 <li><code>ttest</code> prints the <strong>mean of each group</strong>
 and then tests whether they differ by more than chance would produce.
-Read the means first and the p-value second.</li>
+Read the means first and the p-value second. Week 6 explains exactly
+what the p-value means.</li>
 <li>Champions are about 0.08 points more democratic than the other
 teams, but with only 23 champions in a century the difference is
 compatible with chance. Finalists (46 of them) are about 0.11 points
@@ -1916,7 +1938,10 @@ dummies</span><button class="copy-btn" type="button" aria-label="Copy code">Copy
 histogram income
 recode age (18/29=1) (30/49=2) (50/70=3), generate(agegrp)
 tab1 agegrp
-generate female = (sex == 1)
+* a dummy: 1 = woman (sex is coded 1 female, 2 male)
+recode sex (1=1) (2=0), generate(female)
+label define femlbl 0 &quot;Man&quot; 1 &quot;Woman&quot;
+label values female femlbl
 summarize female</code></pre>
 </div>
 <div class="output">
@@ -1934,6 +1959,11 @@ variable. You can always go <strong>down</strong> a level of
 measurement, never back up.</li>
 <li>For a 0/1 <strong>dummy</strong>, the mean is the proportion of
 ones: 51.1% of respondents are women.</li>
+<li><code>recode</code> copies the labels of the original variable onto
+the new one. Without the new <code>label define</code>,
+<code>female = 1</code> would still read “Female” and
+<code>female = 0</code> would have no label at all: always define the
+labels again.</li>
 </ul>
 </div>
 <div id="measurement-error-validity-and-reliability" class="section level2">
@@ -2040,22 +2070,26 @@ build</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</
 <pre class="dax"><code>generate a1r = 7 - a1
 tab2 a1 a1r
 correlate a1r a2 a3 a4 a5
+alpha a1r a2 a3 a4 a5
 generate agree = a1r + a2 + a3 + a4 + a5
 summarize agree, detail
 histogram agree</code></pre>
 </div>
 <div class="output">
 <p><strong>What you should see.</strong> After reversing, all ten
-correlations are positive, with a mean of 0.3325. The scale runs from 5
-to 30, with mean 23.2 and median 24.</p>
+correlations are positive, with a mean of 0.33. <code>alpha</code> gives
+about <strong>0.70</strong>. The scale runs from 5 to 30, with mean 23.2
+and median 24.</p>
 </div>
-<p><strong>Read it.</strong> Cronbach’s alpha by hand: α = n·r̄ / [1 +
-r̄(n − 1)] = 5 × 0.3325 / (1 + 0.3325 × 4) = <strong>0.714</strong>, just
-above the conventional 0.70 threshold. The mean (23.2) below the median
-(24) signals a long <strong>left</strong> tail: most people describe
-themselves as agreeable, a few do not (social desirability may help).
-Remember that alpha measures <em>reliability</em>: it says nothing about
-validity or unidimensionality.</p>
+<p><strong>Read it.</strong> Cronbach’s alpha is about 0.70, right at
+the conventional threshold: the five items hang together, but not
+strongly. (By hand, from the average correlation: α = n·r̄ / [1 + r̄(n −
+1)] = 5 × 0.3325 / (1 + 0.3325 × 4) = 0.714, the standardised version of
+the same idea.) The mean (23.2) below the median (24) signals a long
+<strong>left</strong> tail: most people describe themselves as
+agreeable, a few do not (social desirability may help). Remember that
+alpha measures <em>reliability</em>: it says nothing about validity or
+unidimensionality.</p>
 </div>
 <div id="sampling-error-seen-with-your-own-eyes" class="section level2">
 <h2>Sampling error, seen with your own eyes</h2>
@@ -2125,8 +2159,10 @@ histogram pct1000</code></pre>
 <p><strong>Read it.</strong> All three averages land on the true 35.1%:
 random sampling is <strong>unbiased</strong>. What changes with
 <em>n</em> is the <strong>spread</strong>: 6.7, then 3.2, then 1.2
-points. One sample of 50 said 16%, another 56%. Theory predicts the same
-numbers: √(pq/n) × √(1 − n/N) gives 6.7, 3.2 and 1.2 points.</p>
+points. One sample of 50 said 16%, another 56%. Every single sample is a
+little wrong; larger samples are wrong by less. The spread of the
+estimates across samples has a name, the <strong>standard
+error</strong>, and it comes back in Week 6.</p>
 <div class="warning">
 <p><strong>Size does not fix bias.</strong> In 1936 the <em>Literary
 Digest</em> collected 2.4 million answers and missed Roosevelt’s
@@ -2136,11 +2172,40 @@ better-educated respondents. Twice the ballots would have reproduced the
 same bias twice as precisely.</p>
 </div>
 </div>
+<div id="sampling-where-there-is-no-list" class="section level2">
+<h2>Sampling where there is no list</h2>
+<p>There is no list of Afghan civilians. A survey in a war zone
+therefore samples in stages: districts, then villages, then households
+(<strong>multistage cluster sampling</strong>).
+<code>afghan_village.dta</code> lists 1,864 villages and whether each
+one was surveyed.</p>
+<div class="dax-block">
+<span class="dax-title">Block 5 - were the surveyed villages
+typical?</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/afghan_village.dta&quot;, clear
+tab1 surveyed
+ttest altitude, by(surveyed)
+generate logpop = log(population)
+ttest logpop, by(surveyed)</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> 204 of the 1,864 villages were
+surveyed. Mean altitude: 1,544 metres in both groups (p = 0.99). Log
+population: 6.05 vs 6.08 (p = 0.72).</p>
+</div>
+<p><strong>Read it.</strong> On what we can observe, the surveyed
+villages look like the others: a sign that the selection of clusters did
+not favour easy, low-lying or large villages. We can only check what is
+in the list; unobserved differences (insecurity, access) may remain.
+Population is logged because a few very large villages would dominate
+the mean.</p>
+</div>
 <div id="try-it-yourself-2" class="section level2">
 <h2>Try it yourself</h2>
-<p>Run <code>summarize age50 age200 age1000</code>. Compare the three
-standard deviations with s/√n, where s = 14.76 is the standard deviation
-of age in the population.</p>
+<p><code>chile_samples.dta</code> also contains the mean
+<strong>age</strong> in each sample (<code>age50</code>,
+<code>age200</code>, <code>age1000</code>). Does the spread of the
+estimates shrink in the same way as for the No share?</p>
 <details>
 <summary>
 Show solution
@@ -2149,13 +2214,16 @@ Show solution
 <button class="copy-btn" type="button" aria-label="Copy code">
 Copy
 </button>
-<pre class="dax"><code>summarize age50 age200 age1000</code></pre>
+<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/chile_samples.dta&quot;, clear
+summarize age50 age200 age1000</code></pre>
 </div>
-<p>s/√n gives 14.76/√50 ≈ 2.09, 14.76/√200 ≈ 1.04 and 14.76/√1000 ≈
-0.47. DAX gives 2.03, 1.03 and 0.36. The first two are close to the
-formula; the third is clearly smaller, because 1,000 out of 2,531 is a
-large fraction of the population. With the finite population correction,
-0.47 × √(1 − 1,000/2,531) ≈ 0.47 × 0.78 ≈ 0.36.</p>
+<p>The standard deviations are 2.03, 1.03 and 0.36 years: the same
+pattern. Larger samples give estimates that scatter less around the true
+mean age. (Going further, optional: the standard error of a mean is
+about s/√n, where s = 14.76 is the standard deviation of age in the
+population. That gives 2.09 and 1.04 for the first two sizes; with 1,000
+people out of 2,531 the sample is a large share of the population, so
+the spread is smaller still.)</p>
 </details>
 <hr />
 </div>
@@ -2287,12 +2355,13 @@ improves, but internal validity is no longer guaranteed: it must be
 argued. Every comparison builds a counterfactual on an assumption, so
 <strong>name the assumption</strong>.</p>
 </div>
-<div id="a-minimum-wage-law-as-a-natural-experiment" class="section level2">
-<h2>A minimum-wage law as a natural experiment</h2>
+<div id="a-minimum-wage-law-an-observational-study" class="section level2">
+<h2>A minimum-wage law: an observational study</h2>
 <p>In April 1992 New Jersey raised its minimum wage from $4.25 to $5.05;
 neighbouring Pennsylvania did not. Card and Krueger (1994) surveyed
 fast-food restaurants on both sides of the border before (February) and
-after (November) the increase.</p>
+after (November) the increase. Nobody assigned the law at random: the
+New Jersey legislature decided it.</p>
 <div class="dax-block">
 <span class="dax-title">Block 1 - did the law
 bite?</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
@@ -2345,14 +2414,6 @@ comparable?</span><button class="copy-btn" type="button" aria-label="Copy code">
 restaurants and 41% of New Jersey ones; KFC is 15% and 22%. The groups
 are similar but not identical on what we can observe, and we cannot
 check what we do not observe. This is the price of not randomising.</p>
-<div class="tip">
-<p><strong>Going further (optional).</strong> Combine the two
-comparisons. The full-time share rose by 2.4 points in New Jersey and
-fell by 3.8 points in Pennsylvania. The <em>difference of the
-differences</em> is about 6.2 points. This estimator, called
-difference-in-differences, assumes that without the law the two states
-would have followed parallel trends.</p>
-</div>
 </div>
 <div id="from-tables-to-correlation" class="section level2">
 <h2>From tables to correlation</h2>
@@ -2430,10 +2491,11 @@ to change when X changes by one unit, and lets us
 <li>β (the <strong>slope</strong>) is the expected change in Y for a
 one-unit increase in X.</li>
 <li>ε (the <strong>error</strong>) is everything the line does not
-capture.</li>
+capture. For each case, the <strong>residual</strong> is observed Y
+minus predicted Y.</li>
 </ul>
 <p>Ordinary least squares (OLS) chooses α and β so that the squared
-prediction errors are as small as possible.</p>
+residuals are as small as possible.</p>
 </div>
 <div id="can-a-face-predict-an-election" class="section level2">
 <h2>Can a face predict an election?</h2>
@@ -2503,7 +2565,8 @@ races are anywhere near <code>d_comp</code> = 0.</li>
 “explains” about 19% of the variation in election margins. With a single
 predictor, R² is the squared correlation (0.433² ≈ 0.187).</li>
 <li>DAX shows <strong>standard errors in parentheses</strong> and
-<strong>stars</strong> for significance: *** means p &lt; 0.001.</li>
+<strong>stars</strong> for significance: *** means p &lt; 0.001. Week 6
+explains how to read them.</li>
 </ul>
 </div>
 <div id="prediction-by-hand" class="section level2">
@@ -2532,6 +2595,27 @@ predictor, R² is the squared correlation (0.433² ≈ 0.187).</li>
 </tr>
 </tbody>
 </table>
+</div>
+<div id="the-races-the-line-gets-wrong" class="section level2">
+<h2>The races the line gets wrong</h2>
+<div class="dax-block">
+<span class="dax-title">Block 3 - predicted values and
+residuals</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>generate pred = -0.312 + 0.660 * d_comp
+generate resid = diff_share - pred
+summarize pred resid
+scatter resid d_comp</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> The residuals average zero
+(that is how least squares works) and run from about −0.68 to +0.74.</p>
+</div>
+<p><strong>Read it.</strong> The two biggest misses are Alaska 2002 (the
+Republican Stevens won by 77 points; the faces predicted a Republican
+lead of about 9) and Massachusetts 2000 (the Democrat Kennedy won by 70
+points; the faces predicted a narrow Republican lead). Both were
+long-serving incumbents in safe states: everything the faces do not see
+ends up in the residual.</p>
 <div class="warning">
 <p><strong>Prediction is not explanation.</strong> Competence ratings
 predict election results, but nobody randomised the faces. Incumbents,
@@ -2540,14 +2624,22 @@ win more often for other reasons. A regression coefficient describes an
 association; whether it is a causal effect depends on the design, not on
 the software.</p>
 </div>
+<div class="tip">
+<p><strong>The in-class lab (Lecture 5.2)</strong> used the same
+commands on two other files: <code>gss2021_lab.dta</code> (the 2021
+General Social Survey) and <code>ches2024_lab.dta</code> (party
+positions from the 2024 Chapel Hill Expert Survey). Both load with
+<code>use</code> like every other dataset on this page.</p>
+</div>
 </div>
 <div id="try-it-yourself-5" class="section level2">
 <h2>Try it yourself</h2>
 <ol style="list-style-type: decimal">
 <li>What margin would you predict for a race in which 60% of
 participants found the Democrat more competent?</li>
-<li>Generate a dummy equal to 1 if the Democrat won, and check in what
-share of races the Democrat won.</li>
+<li>Could you interpret the coefficient on <code>d_comp</code> as the
+causal effect of looking competent? Name one confounder and say in which
+direction it would bias the estimate.</li>
 </ol>
 <details>
 <summary>
@@ -2556,146 +2648,591 @@ Show solutions
 <ol style="list-style-type: decimal">
 <li>−0.312 + 0.660 × 0.6 = 0.084: a Democratic margin of about 8
 points.</li>
-</ol>
-<div class="dax-block">
-<button class="copy-btn" type="button" aria-label="Copy code">
-Copy
-</button>
-<pre class="dax"><code>generate d_win = (d_share &gt; r_share)
-summarize d_win</code></pre>
-</div>
-<p>The Democrat won 51.3% of the 119 races.</p>
-</details>
-<hr />
-</div>
-</div>
-<div id="week-6-regression-and-causation" class="section level1">
-<h1>Week 6 · Regression and causation</h1>
-<div id="the-idea-6" class="section level2">
-<h2>The idea</h2>
-<p>A regression coefficient has a <strong>causal</strong> interpretation
-only when the design justifies it. In a randomised experiment,
-regressing the outcome on the treatment dummy gives exactly the
-<strong>difference in means</strong>, that is, the average causal
-effect. In observational data, the coefficient mixes the effect of X
-with the effect of everything correlated with X that is not in the
-model.</p>
-</div>
-<div id="women-as-policy-makers-a-natural-experiment" class="section level2">
-<h2>Women as policy makers: a natural experiment</h2>
-<p>In India, since the mid-1990s, one third of village council (Gram
-Panchayat) head seats have been <strong>reserved for women</strong>, and
-the councils were selected <strong>at random</strong>. Chattopadhyay and
-Duflo (2004) asked: do women leaders invest in different public goods?
-In the villages studied, women complained most about drinking water, men
-about irrigation.</p>
-<div class="dax-block">
-<span class="dax-title">Block 1 - did the reservation
-work?</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
-<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/women.dta&quot;, clear
-describe
-tab2 reserved female</code></pre>
-</div>
-<p><strong>Read it.</strong> All 108 reserved villages have a female
-council head; only 16 of the 214 unreserved ones do. The randomised
-policy really changed who governs.</p>
-<div class="dax-block">
-<span class="dax-title">Block 2 - difference in means, two
-ways</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
-<pre class="dax"><code>ttest water, by(reserved)
-regress water reserved
-regress irrigation reserved</code></pre>
-</div>
-<div class="output">
-<p><strong>What you should see.</strong> Drinking-water facilities:
-14.74 in unreserved villages, 23.99 in reserved ones. In
-<code>regress water reserved</code>: coefficient on
-<code>reserved</code> = <strong>9.252</strong> (3.948), constant =
-14.738. In <code>regress irrigation reserved</code>: coefficient =
-−0.369 (1.122).</p>
-</div>
-<p><strong>Read it.</strong></p>
-<ul>
-<li>The <strong>constant</strong> (14.74) is the mean in the control
-group; the <strong>coefficient</strong> (9.25) is the difference between
-the two group means. With a 0/1 predictor, regression <em>is</em> a
-difference in means.</li>
-<li>Because reservation was randomised, this is an estimate of the
-<strong>average causal effect</strong>: about 9 more drinking-water
-projects in villages governed by a woman. There is no detectable effect
-on irrigation.</li>
-</ul>
-<div class="warning">
-<p><strong>Why do the p-values differ?</strong> <code>ttest</code> in
-DAX does not assume equal variances in the two groups (Welch test, p ≈
-0.07), while <code>regress</code> does (p ≈ 0.02). Same means, different
-assumptions about the noise. With a difference this close to the
-conventional threshold, the honest conclusion is “suggestive evidence”,
-not a proof.</p>
-</div>
-</div>
-<div id="more-than-two-groups-and-more-than-one-predictor" class="section level2">
-<h2>More than two groups, and more than one predictor</h2>
-<p>With a categorical treatment, <code>i.</code> tells DAX to create one
-dummy per category, leaving out the first one as the
-<strong>reference</strong> group:</p>
-<div class="dax-block">
-<span class="dax-title">Block 3 - four groups, one
-regression</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
-<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/resume.dta&quot;, clear
-* the four sex x race groups from Week 4
-generate group = black + 2*female
-label define grouplab 0 &quot;white man&quot; 1 &quot;Black man&quot; 2 &quot;white woman&quot; 3 &quot;Black woman&quot;
-label values group grouplab
-regress call i.group</code></pre>
-</div>
-<div class="output">
-<p><strong>What you should see.</strong> Constant = 0.089 (the callback
-rate of white men). Coefficients: Black man −0.030, white woman 0.010,
-Black woman −0.022.</p>
-</div>
-<p><strong>Read it.</strong> Each coefficient is the difference from the
-reference group (white men, 8.87%): Black men 5.83% (−3.0 points), white
-women 9.89% (+1.0), Black women 6.63% (−2.2). These are exactly the
-percentages you computed with <code>tab2 group call, row</code> in Week
-4. Notice that none of the three coefficients has a star: each subgroup
-is small, so each single comparison is imprecise.</p>
-<div class="dax-block">
-<span class="dax-title">Block 4 - adding a second
-predictor</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
-<pre class="dax"><code>regress call black
-regress call black female</code></pre>
-</div>
-<p><strong>Read it.</strong> The coefficient on <code>black</code> is
-−0.032 with or without <code>female</code> in the model. Because names
-were randomised, race of the name is unrelated to the sex of the name,
-and adding a control <strong>does not change</strong> the estimated
-effect. In observational data, adding a relevant control usually does
-change the coefficient, and that change is exactly what multiple
-regression is for: estimating the effect of X <em>holding the other
-variables constant</em>.</p>
-<div class="tip">
-<p><strong>Which controls?</strong> Control for variables that come
-<strong>before</strong> X and affect Y (confounders). Do not control for
-variables that are <strong>consequences</strong> of X: you would remove
-part of the effect you want to measure.</p>
-</div>
-</div>
-<div id="try-it-yourself-6" class="section level2">
-<h2>Try it yourself</h2>
-<p>In <code>face.dta</code>, could you interpret the coefficient on
-<code>d_comp</code> as the causal effect of looking competent? Name one
-confounder and say in which direction it would bias the estimate.</p>
-<details>
-<summary>
-Show solution
-</summary>
-<p>No. Competence ratings were not assigned at random.
+<li>No. Competence ratings were not assigned at random.
 <strong>Incumbency</strong> is a plausible confounder: incumbents may
 look more experienced and confident, and they win more often for many
 other reasons (visibility, money, constituency service). If incumbents
 are both rated more competent and more likely to win, the coefficient
-<strong>overstates</strong> the effect of appearance.</p>
+<strong>overstates</strong> the effect of appearance.</li>
+</ol>
+</details>
+<hr />
+</div>
+</div>
+<div id="week-5-multiple-regression-categorical-predictors-and-r²" class="section level1">
+<h1>Week 5 · Multiple regression, categorical predictors and R²</h1>
+<div id="the-idea-6" class="section level2">
+<h2>The idea</h2>
+<p>With more than one predictor, each coefficient is the expected change
+in Y for a one-unit change in that X, <strong>holding the other
+predictors constant</strong>:</p>
+<p>Y = α + β₁X₁ + β₂X₂ + … + ε</p>
+<p>A coefficient changes when we add a new predictor only if the new X
+is related <strong>both</strong> to the old X and to Y. A
+<strong>nominal</strong> predictor (marital status, sex) enters the
+model as a set of 0/1 dummies, one per category except a
+<strong>reference</strong> category. And <strong>R²</strong> tells us
+how much of the variation in Y the model accounts for.</p>
+<p><code>gss2021_marital.dta</code> has 3,624 respondents of the 2021
+General Social Survey: <code>polviews</code> (1 extremely liberal … 7
+extremely conservative), years of schooling (<code>educ</code>),
+<code>age</code>, family income when they were 16 compared with others
+(<code>finrela</code>, 1-5), <code>sex</code> and <code>marital</code>
+status.</p>
+</div>
+<div id="start-simple" class="section level2">
+<h2>Start simple</h2>
+<div class="dax-block">
+<span class="dax-title">Block 1 - know Y, then one
+predictor</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/gss2021_marital.dta&quot;, clear
+describe
+summarize polviews educ age finrela
+tab1 polviews
+regress polviews educ
+regress polviews finrela
+correlate polviews educ age finrela</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> <code>polviews</code>: mean
+3.95, standard deviation 1.54; about one respondent in three is in the
+middle (4 = moderate). <code>regress polviews educ</code>: −0.089***
+(0.009), constant 5.257, R² = 0.026.
+<code>regress polviews finrela</code>: −0.107*** (0.026). The
+correlation between <code>finrela</code> and <code>educ</code> is
+0.36.</p>
+</div>
+<p><strong>Read it.</strong> One more year of schooling goes with 0.09
+points more liberal, on average. People from richer families also look
+more liberal. But richer families also give their children more
+schooling (r = 0.36): is it income or education? The simple regression
+cannot tell the two apart.</p>
+</div>
+<div id="holding-the-others-constant" class="section level2">
+<h2>Holding the others constant</h2>
+<div class="dax-block">
+<span class="dax-title">Block 2 - three
+predictors</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>regress polviews educ age finrela</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Alone (simple regression)</th>
+<th>With the other two</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>educ</td>
+<td>−0.089</td>
+<td>−0.088*** (0.010)</td>
+</tr>
+<tr class="even">
+<td>age</td>
+<td>+0.014</td>
+<td>+0.014*** (0.001)</td>
+</tr>
+<tr class="odd">
+<td>finrela</td>
+<td>−0.107</td>
+<td>−0.017 (0.028)</td>
+</tr>
+<tr class="even">
+<td>Constant</td>
+<td></td>
+<td>4.568*** (0.157)</td>
+</tr>
+</tbody>
+</table>
+<p>R² = 0.050.</p>
+</div>
+<p><strong>Read it.</strong></p>
+<ul>
+<li>Among people of the same age and family income, one more year of
+schooling: 0.09 points more liberal. Among people with the same
+education and income, ten more years of age: 0.14 points more
+conservative.</li>
+<li>The coefficient of <code>finrela</code> drops almost to zero and
+loses its stars: the simple coefficient was largely
+<strong>education</strong>.</li>
+<li>The coefficient of <code>educ</code> does not move when we add
+<code>age</code>, because age and education are almost unrelated here (r
+= 0.01).</li>
+</ul>
+<div class="tip">
+<p><strong>Which controls?</strong> Control for variables that come
+<strong>before</strong> X and affect Y (confounders). Do not control for
+variables that are <strong>consequences</strong> of X, or another
+version of Y: you would remove part of what you want to measure.</p>
+</div>
+</div>
+<div id="categorical-predictors" class="section level2">
+<h2>Categorical predictors</h2>
+<div class="dax-block">
+<span class="dax-title">Block 3 - the wrong way and the right
+way</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>tab1 marital
+* wrong: treats 1 married ... 5 never married as equal steps
+regress polviews marital
+* right: one dummy per category, married (1) as the reference
+regress polviews i.marital</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong>
+<code>regress polviews marital</code>: −0.154***, a number with no
+meaning. <code>regress polviews i.marital</code>: constant 4.114 (the
+mean of married respondents); never married −0.654*** (0.062), divorced
+−0.104 (0.071), widowed +0.137 (0.100), separated −0.031 (0.169). In DAX
+the dummies are labelled like <code>as.factor(marital)5</code>.</p>
+</div>
+<p><strong>Read it.</strong> <code>marital</code> is nominal: “never
+married” (5) is not five times “married” (1). The first regression runs
+anyway, because DAX does not know the level of measurement. With
+<code>i.marital</code>, each coefficient is the difference from the
+reference group: respondents who never married are, on average, 0.65
+points more liberal than married ones. With <em>k</em> categories,
+<code>i.</code> creates <em>k</em> − 1 dummies.</p>
+<div class="dax-block">
+<span class="dax-title">Block 4 - everything
+together</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>regress polviews educ age finrela i.sex i.marital</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> Women −0.202*** (reference:
+men); never married −0.599***; divorced −0.211**; <code>educ</code>
+−0.090***; <code>age</code> +0.008***; <code>finrela</code> −0.065*;
+constant 5.358. R² = 0.074.</p>
+</div>
+<p><strong>Read it.</strong> Every coefficient depends on which other
+predictors are in the model: “never married” goes from −0.654 to −0.599,
+<code>age</code> from +0.014 to +0.008 (never-married respondents are
+younger, so part of the age gap was marital status).</p>
+</div>
+<div id="r²-how-much-does-the-model-explain" class="section level2">
+<h2>R²: how much does the model explain?</h2>
+<p>R² = 1 − (sum of squared residuals) / (total sum of squares): the
+share of the variation in Y the model accounts for, from 0 (no better
+than predicting the mean for everyone) to 1 (every point on the line).
+With one predictor, R² = r²: (−0.16)² ≈ 0.026 for education.</p>
+<p>Here R² grows from 0.026 (education alone) to 0.050 (three
+predictors) to 0.074 (all of them). Political views are hard to predict
+from demographics: a low R² is normal in survey data, and it does not
+make the coefficients wrong. <strong>R² is about prediction, not about
+importance or causation.</strong></p>
+</div>
+<div id="try-it-yourself-6" class="section level2">
+<h2>Try it yourself</h2>
+<p>Use the model of Block 4. Respondent C is a woman, 40 years old, 16
+years of schooling, <code>finrela</code> = 3, never married. Respondent
+D is a man with the same age, schooling and income, married. Predict
+their <code>polviews</code>. Where does the difference come from?</p>
+<details>
+<summary>
+Show solution
+</summary>
+<p>D is in both reference groups (man, married), so all the dummies are
+0: 5.358 − 0.090 × 16 + 0.008 × 40 − 0.065 × 3 = <strong>4.04</strong>.
+C has female = 1 and never married = 1: 4.04 − 0.202 − 0.599 =
+<strong>3.24</strong>. Same age, education and income: the gap of 0.80
+points is the sum of the two dummies, about half a standard deviation of
+<code>polviews</code>.</p>
+</details>
+<hr />
+</div>
+</div>
+<div id="week-6-hypothesis-tests-and-p-values" class="section level1">
+<h1>Week 6 · Hypothesis tests and p-values</h1>
+<div id="the-idea-7" class="section level2">
+<h2>The idea</h2>
+<p>A difference in a sample is not automatically a difference in the
+population: every sample is a little wrong (Week 3). A
+<strong>hypothesis test</strong> is a rule for deciding when a sample
+result is good evidence about the population, with a known risk of being
+wrong.</p>
+<ol style="list-style-type: decimal">
+<li>State the <strong>null hypothesis</strong> H0 (no difference, no
+effect) and the alternative H1.</li>
+<li>Fix the <strong>significance level</strong> α before looking,
+usually 0.05.</li>
+<li>Compute the <strong>test statistic</strong>: t = (estimate − value
+under H0) / standard error. Signal divided by noise.</li>
+<li>Find the <strong>p-value</strong>: the probability of a result at
+least as extreme as ours, <em>if H0 were true</em>.</li>
+<li>Decide (p ≤ α: reject H0; p &gt; α: fail to reject it), then ask how
+big the difference is and whether it matters.</li>
+</ol>
+<p><code>gss2021_lab.dta</code> is the file of the in-class lab: 3,500
+American adults from the 2021 General Social Survey, a probability
+sample.</p>
+</div>
+<div id="a-difference-between-two-groups" class="section level2">
+<h2>A difference between two groups</h2>
+<div class="dax-block">
+<span class="dax-title">Block 1 - are American women more liberal than
+men?</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/gss2021_lab.dta&quot;, clear
+describe
+by sex: summarize polviews
+ttest polviews, by(sex)</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> Men 4.06, women 3.87 on the 1-7
+scale. In <code>ttest</code>: means 4.0573 (1 male) and 3.8741 (2
+female), t = 3.4983 (3325), p = 0.0005.</p>
+</div>
+<p><strong>Read it.</strong> DAX prints the two means, t with its
+degrees of freedom (Welch test: unequal variances allowed) and the
+<strong>two-sided</strong> p-value. It does not print the difference,
+the standard error or the confidence interval, so compute them
+yourself:</p>
+<ul>
+<li>Difference (group 1 − group 2): 4.0573 − 3.8741 =
+<strong>0.183</strong>. That is why t is positive.</li>
+<li>Standard error = difference / t = 0.183 / 3.498 = 0.052.</li>
+<li>95% confidence interval ≈ 0.183 ± 2 × 0.052 = <strong>[0.08,
+0.29]</strong>. Zero is not in the interval: same conclusion as p &lt;
+0.05.</li>
+</ul>
+<p>p = 0.0005 &lt; 0.05: we reject H0. In the US adult population, women
+place themselves slightly to the left of men. “Slightly” matters: 0.18
+points is 3% of the scale, and sex explains 0.4% of the variance in
+ideology.</p>
+</div>
+<div id="one-mean-against-a-fixed-value" class="section level2">
+<h2>One mean against a fixed value</h2>
+<div class="dax-block">
+<span class="dax-title">Block 2 - is the average American a
+moderate?</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>ttest polviews = 4</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> Mean 3.9563, test value 4, t =
+−1.6791 (3499), p = 0.0932.</p>
+</div>
+<p><strong>Read it.</strong> p = 0.093 &gt; 0.05: we fail to reject H0
+(μ = 4). Have we shown that the mean is 4? No. The 95% interval, 3.956 ±
+2 × 0.026, runs from 3.91 to 4.01: 4 is in it, but so is 3.92. Failing
+to reject is not proving. At α = 0.10 we would reject: thresholds are
+conventions, not laws of nature.</p>
+</div>
+<div id="every-coefficient-comes-with-its-own-test" class="section level2">
+<h2>Every coefficient comes with its own test</h2>
+<div class="dax-block">
+<span class="dax-title">Block 3 - stars, standard errors,
+intervals</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>regress polviews attend
+recode sex (1=0) (2=1), generate(female)
+label define femlbl 0 &quot;Man&quot; 1 &quot;Woman&quot;
+label values female femlbl
+regress polviews female</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong>
+<code>regress polviews attend</code>: 0.155*** (0.009), constant 3.520,
+R² = 0.075. <code>regress polviews female</code>: −0.183*** (0.052),
+constant 4.057, R² = 0.004.</p>
+</div>
+<p><strong>Read it.</strong></p>
+<ul>
+<li>For every coefficient, H0 is β = 0. DAX <code>regress</code> prints
+the coefficient, the standard error in parentheses and stars: * p &lt;
+0.05, ** p &lt; 0.01, *** p &lt; 0.001, no star p ≥ 0.05. It prints
+neither t nor the exact p, so compute t by hand: 0.155 / 0.009 ≈
+17.</li>
+<li>95% confidence interval ≈ coefficient ± 2 × SE. The interval
+excludes 0 exactly when p &lt; 0.05, and it also shows how big the
+effect could be.</li>
+<li><strong>A regression on a dummy is a t-test.</strong> The constant
+(4.057) is the mean of men; the coefficient (−0.183) is women minus men;
+t = −0.183 / 0.052 ≈ −3.5, the same as Block 1 with the sign
+reversed.</li>
+</ul>
+<div class="dax-block">
+<span class="dax-title">Block 4 - a rounding
+trap</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>regress polviews age
+generate age10 = age / 10
+regress polviews age10</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> <code>age</code>: 0.014***
+(0.001). <code>age10</code>: 0.141*** (0.015).</p>
+</div>
+<p><strong>Read it.</strong> From the first output, t by hand would be
+0.014 / 0.001 = 14; the true t is 9.4. DAX rounds to three decimals, and
+a standard error of 0.0015 is printed as 0.001. Rescale the variable
+(decades instead of years) so that coefficients and standard errors have
+at least two significant digits. The test does not change; the units
+do.</p>
+<div class="warning">
+<p><strong>What a p-value is not.</strong></p>
+<ul>
+<li>Not the probability that H0 is true: it is computed
+<em>assuming</em> H0 is true.</li>
+<li>Not a measure of size: a tiny effect in a huge sample can have p =
+0.001. Report the size and the interval.</li>
+<li>“Not significant” is not “no effect”: small samples have little
+<strong>power</strong> and miss real effects.</li>
+<li>Not proof of causation: a test rules out chance, not confounding.
+Causality comes from the design.</li>
+<li>Test twenty things with all nulls true and the chance of at least
+one p &lt; 0.05 is 1 − 0.95²⁰ = 64%. Write the hypotheses
+<strong>before</strong> you see the data (pre-registration).</li>
+</ul>
+</div>
+</div>
+<div id="try-it-yourself-7" class="section level2">
+<h2>Try it yourself</h2>
+<ol style="list-style-type: decimal">
+<li>Do supporters and opponents of the death penalty
+(<code>cappun</code>: 1 favor, 2 oppose) differ in ideology? Do
+supporters and opponents of gun permits (<code>gunlaw</code>) differ in
+religious attendance?</li>
+<li>Write one sentence for the first test with five elements: direction,
+size, uncertainty, test, design.</li>
+</ol>
+<details>
+<summary>
+Show solutions
+</summary>
+<div class="dax-block">
+<button class="copy-btn" type="button" aria-label="Copy code">
+Copy
+</button>
+<pre class="dax"><code>ttest polviews, by(cappun)
+ttest attend, by(gunlaw)</code></pre>
+</div>
+<p>Death penalty: 4.44 vs 3.34, a difference of 1.09 points; t = 22.2, p
+printed as 0 (read: p &lt; 0.0001). A large difference. Gun permits:
+2.76 vs 2.95, a difference of −0.18; t = −1.82, p = 0.069. We fail to
+reject at 5%, but the interval (about −0.38 to 0.01) is compatible both
+with no difference and with a small one.</p>
+<p>“In the 2021 GSS (n = 3,500), supporters of the death penalty placed
+themselves 1.09 points to the right of opponents on the 7-point scale
+(95% CI about 1.0 to 1.2; Welch t = 22.2, p &lt; 0.001). It is a
+descriptive difference: opinions on the death penalty were not assigned
+at random.”</p>
+</details>
+<hr />
+</div>
+</div>
+<div id="week-6-a-research-design-start-to-finish" class="section level1">
+<h1>Week 6 · A research design, start to finish</h1>
+<div id="the-idea-8" class="section level2">
+<h2>The idea</h2>
+<p>The whole cycle of the course in one study, with our own data.
+<strong>Question</strong>: do students who listen to rap and trap
+explain success and inequality differently, and can the story told in a
+song change how they explain them? The class survey contains <strong>two
+designs</strong>:</p>
+<ul>
+<li>an <strong>observational</strong> part: listening habits, left-right
+self-placement, explanations of success;</li>
+<li>an <strong>embedded experiment</strong>: half of the students read a
+“self-made” version of a song text (version A, born on an odd day), half
+a “structural marginalisation” version (version B, even day). Same
+opening, same closing, same length: only the explanation of success
+changes.</li>
+</ul>
+<p>The hypotheses were written before the data were collected: H1, rap
+listening is associated with how students explain success; H2,
+right-wing students explain success more individually and support
+redistribution less; H3, the H1 association shrinks once ideology,
+gender and country are held constant (selection); H4, the primary
+hypothesis of the experiment, reading the self-made version leads to
+more individual explanations.</p>
+<p><code>msr_survey.dta</code> has the anonymous answers of the 41
+students analysed (42 questionnaires, 1 excluded for failing the
+attention check).</p>
+</div>
+<div id="look-first-then-build-the-indices" class="section level2">
+<h2>Look first, then build the indices</h2>
+<div class="dax-block">
+<span class="dax-title">Block 1 - who are
+we?</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/msr_survey.dta&quot;, clear
+describe
+tab1 g_rap
+tab1 selfmade
+summarize lr
+tab1 italy</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> 10 of 41 students (24%) listen
+to rap or trap “often” or “very often”. 18 read version A, 23 version B.
+Left-right: mean 3.1 on 0-10 (n = 40, one “don’t know”). 22 of 41 grew
+up in Italy.</p>
+</div>
+<div class="dax-block">
+<span class="dax-title">Block 2 - an index of how people explain
+success</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>generate indiv = imp_work + imp_ambition + imp_talent
+generate struct = imp_family + imp_people + imp_place
+generate attrib = indiv - struct
+summarize attrib
+alpha imp_work imp_ambition imp_talent
+alpha imp_family imp_people imp_place
+correlate merit birth
+recode g_rap (1/3 = 0) (4/5 = 1), generate(rapfan)
+label define fan_l 0 &quot;Less often&quot; 1 &quot;Often or very often&quot;
+label values rapfan fan_l
+tab1 rapfan</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> <code>attrib</code> (individual
+minus structural causes, −12 to +12): mean −0.59, standard deviation
+2.9. Alpha: 0.70 for the individual items, 0.55 for the structural ones.
+<code>merit</code> and <code>birth</code>: r = −0.43.</p>
+</div>
+<p><strong>Read it.</strong> On average the class explains success
+slightly more by structure than by individual effort. The two sub-scales
+are weak (Week 3): three items each, not designed as a scale.
+<code>merit</code> and <code>birth</code> correlate negatively because
+they point in opposite directions: <code>birth</code> must be reversed
+(6 − birth) before adding them. And remember: <code>recode</code> copies
+the old labels, so <code>rapfan</code> needs new ones.</p>
+</div>
+<div id="the-observational-part-h1-h3" class="section level2">
+<h2>The observational part: H1-H3</h2>
+<div class="dax-block">
+<span class="dax-title">Block 3 - rap, ideology and explanations of
+success</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>ttest attrib, by(rapfan)
+regress attrib g_rap
+regress attrib lr
+regress redist lr
+regress attrib g_rap lr female italy</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong></p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Test</th>
+<th>Estimate (SE)</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>H1 · <code>ttest attrib, by(rapfan)</code></td>
+<td>−0.55 (others) vs −0.70 (fans); t = 0.12, p = 0.91</td>
+<td>not supported</td>
+</tr>
+<tr class="even">
+<td>H1 · <code>regress attrib g_rap</code></td>
+<td>−0.201 (0.417), n = 41</td>
+<td>not supported</td>
+</tr>
+<tr class="odd">
+<td>H2 · <code>regress attrib lr</code></td>
+<td>+0.578* (0.275), n = 40</td>
+<td>supported</td>
+</tr>
+<tr class="even">
+<td>H2 · <code>regress redist lr</code></td>
+<td>−0.303** (0.087), R² = 0.24</td>
+<td>supported</td>
+</tr>
+<tr class="odd">
+<td>H3 · <code>g_rap</code> with <code>lr female italy</code></td>
+<td>−0.302 (0.365); <code>italy</code> −2.464** (0.827), n = 40</td>
+<td>nothing to explain away</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Read it.</strong> Read in this order: sign, size,
+uncertainty, test. Rap listening is not associated with explanations of
+success, but with only 10 fans the interval for <code>g_rap</code>
+(about −1.0 to +0.6) is compatible with both rival stories. Ideology
+matters: one point to the right goes with 0.58 points more individual
+explanations, and from 2 to 6 on the left-right scale support for
+redistribution falls by about 1.2 points (1-5). The surprise, not
+predicted, is <code>italy</code>: students who grew up in Italy score
+about 2.5 points more “structural”. Different people, or different
+countries in their minds? A new hypothesis for another study, not a
+finding.</p>
+</div>
+<div id="the-experiment-h4" class="section level2">
+<h2>The experiment: H4</h2>
+<div class="dax-block">
+<span class="dax-title">Block 4 - balance, manipulation check,
+effect</span><button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
+<pre class="dax"><code>* (a) balance: only variables measured before the song
+ttest g_rap, by(selfmade)
+ttest lr, by(selfmade)
+tab2 selfmade italy, row
+* (b) did the message get through?
+tab2 selfmade manip, row
+* (c) the effect on the primary outcome
+ttest attrib, by(selfmade)
+regress attrib selfmade</code></pre>
+</div>
+<div class="output">
+<p><strong>What you should see.</strong> Balance: rap listening 2.83 (B)
+vs 2.72 (A), p = 0.77; left-right 2.64 vs 3.67, p = 0.056. Manipulation
+check: 50% of A readers answer “own effort”, only 39% of B readers
+“unfair conditions”; 18 of 41 recalled the message of their version.
+Effect: B −0.78, A −0.33 (<code>ttest</code>: t = −0.50, p = 0.62);
+<code>regress attrib selfmade</code>: 0.449 (0.937).</p>
+</div>
+<p><strong>Read it.</strong></p>
+<ul>
+<li><strong>Balance</strong>: no difference is significant at 5%, but in
+groups of 18 and 23 chance leaves visible gaps (left-right comes close).
+We check only pre-treatment variables.</li>
+<li><strong>Manipulation check</strong>: the treatment was weak. We
+still exclude nobody: the check was measured after the treatment, and
+dropping people would break the randomisation.</li>
+<li><strong>Effect</strong>: the self-made version moves
+<code>attrib</code> by +0.45 points (about 0.15 standard deviations), in
+the predicted direction but far from significant. In <code>ttest</code>,
+DAX subtracts group 1 from group 0 (B − A), so t is negative.</li>
+<li><strong>Power</strong>: with 18 and 23 readers, the standard error
+of the difference is about 0.31 standard deviations, so only effects
+above about 0.62 SD could reach p &lt; 0.05. A null result from a weak
+test is weak evidence of no effect.</li>
+</ul>
+<div class="tip">
+<p><strong>Selection or persuasion?</strong> The survey alone cannot
+tell whether trap fans think differently because of the music or because
+of who chooses the music; the experiment alone cannot speak for real
+listeners. Together they narrow the range of explanations, if each part
+has enough power. Ours did not: few fans, a text instead of a song, one
+class.</p>
+</div>
+</div>
+<div id="try-it-yourself-8" class="section level2">
+<h2>Try it yourself</h2>
+<p>Do students who grew up in Italy explain success differently from
+international students? Write one sentence with the five elements of
+Lecture 6.1. Is it an association or an effect?</p>
+<details>
+<summary>
+Show solution
+</summary>
+<div class="dax-block">
+<button class="copy-btn" type="button" aria-label="Copy code">
+Copy
+</button>
+<pre class="dax"><code>ttest attrib, by(italy)</code></pre>
+</div>
+<p>International students 0.63, students who grew up in Italy −1.64: a
+difference of 2.3 points, t = 2.62, p = 0.013. “In our class (n = 41),
+students who grew up in Italy scored 2.3 points lower (more structural)
+on the attribution index than international students (t = 2.62, p =
+0.013). Where you grew up was not assigned at random, and the hypothesis
+was not written in advance: it is an exploratory association.”</p>
 </details>
 <hr />
 </div>
@@ -2727,6 +3264,7 @@ summarize income, detail
 use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/battery.dta&quot;, clear
 generate a1r = 7 - a1
 correlate a1r a2 a3 a4 a5
+alpha a1r a2 a3 a4 a5
 use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/chile_samples.dta&quot;, clear
 summarize pno50 pno200 pno1000
 
@@ -2745,9 +3283,21 @@ generate diff_share = (d_votes - r_votes) / (d_votes + r_votes)
 scatter diff_share d_comp
 regress diff_share d_comp
 
-* Week 6 - regression and causation
-use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/women.dta&quot;, clear
-regress water reserved</code></pre>
+* Week 5 - multiple regression and categorical predictors
+use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/gss2021_marital.dta&quot;, clear
+regress polviews educ age finrela
+regress polviews educ age finrela i.sex i.marital
+
+* Week 6 - hypothesis tests
+use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/gss2021_lab.dta&quot;, clear
+ttest polviews, by(sex)
+regress polviews attend
+
+* Week 6 - our class survey
+use &quot;https://raw.githubusercontent.com/francescovisconti/MSR-data/main/msr_survey.dta&quot;, clear
+generate attrib = imp_work + imp_ambition + imp_talent - imp_family - imp_people - imp_place
+regress redist lr
+ttest attrib, by(selfmade)</code></pre>
 </div>
 <hr />
 </div>
@@ -2770,7 +3320,8 @@ different from desktop Stata.</p>
 <tbody>
 <tr class="odd">
 <td><code>use &quot;https://…/file.dta&quot;, clear</code></td>
-<td>load data from a web address</td>
+<td>load data from a web address; only <code>.dta</code> or
+<code>.sav</code> files</td>
 </tr>
 <tr class="even">
 <td><code>describe</code>, <code>browse</code></td>
@@ -2790,21 +3341,31 @@ percentiles</td>
 <td>frequency and contingency tables</td>
 </tr>
 <tr class="even">
-<td><code>generate</code>, <code>recode …, generate()</code></td>
-<td>arithmetic, <code>log()</code>, comparisons such as
-<code>(x &gt; 10)</code></td>
+<td><code>generate</code></td>
+<td>arithmetic and functions: <code>x / 10</code>, <code>a + b</code>,
+<code>log()</code>, <code>round()</code></td>
 </tr>
 <tr class="odd">
+<td><code>recode x (…), generate(y)</code></td>
+<td>categories and dummies; copies the old labels, so define new
+ones</td>
+</tr>
+<tr class="even">
 <td><code>label define</code>, <code>label values</code></td>
 <td></td>
 </tr>
-<tr class="even">
-<td><code>ttest y, by(g)</code></td>
-<td>Welch test: does not assume equal variances</td>
-</tr>
 <tr class="odd">
+<td><code>ttest y, by(g)</code>, <code>ttest y = 4</code></td>
+<td>Welch test; prints the two means, t (df) and the two-sided p
+only</td>
+</tr>
+<tr class="even">
 <td><code>correlate x y z</code>, <code>scatter y x</code></td>
 <td><code>correlate … if</code> and <code>scatter … if</code> work</td>
+</tr>
+<tr class="odd">
+<td><code>alpha x1 x2 x3</code></td>
+<td>Cronbach’s alpha</td>
 </tr>
 <tr class="even">
 <td><code>histogram x</code></td>
@@ -2813,8 +3374,18 @@ variables, group them first (see below)</td>
 </tr>
 <tr class="odd">
 <td><code>regress y x1 x2</code>, <code>regress y i.g</code></td>
-<td>output with standard errors in parentheses and stars; fails on very
-large files (see below)</td>
+<td>coefficient, (SE) and stars; <code>i.</code> creates one dummy per
+category</td>
+</tr>
+<tr class="even">
+<td><code>regress y a##b</code></td>
+<td>interactions without prefixes work; <code>c.</code> and
+<code>i.</code> inside interactions do not</td>
+</tr>
+<tr class="odd">
+<td><code>eststo</code>, <code>esttab</code></td>
+<td>side-by-side models; <strong>stars differ</strong>: * p &lt; 0.1, **
+p &lt; 0.05, *** p &lt; 0.01</td>
 </tr>
 </tbody>
 </table>
@@ -2832,42 +3403,52 @@ large files (see below)</td>
 <tbody>
 <tr class="odd">
 <td><code>generate … if …</code></td>
-<td>build the variable for everyone,
-e.g. <code>generate d = (x == 3)</code></td>
+<td>build the variable for everyone with <code>recode</code>,
+e.g. <code>recode x (1/2 = 0) (3 = 1) (4/5 = 0), generate(d)</code></td>
 </tr>
 <tr class="even">
+<td>dummies with comparisons,
+e.g. <code>generate d = (x &gt; 10)</code></td>
+<td>gives TRUE/FALSE and labels do not apply: use
+<code>recode</code></td>
+</tr>
+<tr class="odd">
 <td><code>recode x (… = .)</code> (recoding to missing)</td>
 <td>compare groups with <code>by g: summarize</code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>ttest … if …</code>, <code>regress … if …</code></td>
 <td><code>by g: summarize</code>; or a dummy plus
 <code>ttest y, by(dummy)</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>comparisons with text, e.g. <code>(state == &quot;PA&quot;)</code></td>
 <td>use the numeric version of the variable</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>tabstat</code>, <code>codebook</code>, <code>collapse</code>,
 <code>preserve</code>, <code>bysort</code>, <code>egen</code></td>
 <td><code>summarize</code>, <code>by g: summarize</code>,
 <code>tab1</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>histogram x, bin(20)</code></td>
 <td><code>bin()</code> is ignored: build bands with
 <code>generate xb = round(x * 10) / 10</code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><code>round(x, 0.1)</code> (rounding to a unit)</td>
 <td><code>round(x * 10) / 10</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><code>regress</code> on very large datasets
 (e.g. <code>social.dta</code>, 305,866 rows)</td>
 <td>fails with “offset is out of range”: use <code>tab2</code> and
 <code>by g: summarize</code> on large files</td>
+</tr>
+<tr class="even">
+<td><code>drop if</code>, <code>keep if</code></td>
+<td><code>drop</code> and <code>keep</code> work on variables only</td>
 </tr>
 <tr class="odd">
 <td><code>log</code>, <code>cd</code>, <code>pwd</code>,
@@ -2877,10 +3458,26 @@ e.g. <code>generate d = (x == 3)</code></td>
 </tbody>
 </table>
 <div class="tip">
-<p><strong>Reading DAX output.</strong> <code>summarize</code> rounds to
-two decimals: if you need more precision, rescale the variable first
-(e.g. multiply a proportion by 100). In <code>ttest</code>, a p-value
-printed as <code>0</code> means p &lt; 0.0001.</p>
+<p><strong>Reading DAX output.</strong></p>
+<ul>
+<li><code>summarize</code> rounds to two decimals: if you need more
+precision, rescale the variable first (e.g. multiply a proportion by
+100).</li>
+<li><code>ttest y, by(g)</code> computes <strong>group 0 − group
+1</strong> (the lower code minus the higher one): check which group is
+which before you write the sign. It does not print the difference, the
+standard error or the interval: difference = mean 1 − mean 2, SE =
+difference / t, 95% CI ≈ difference ± 2 × SE. A p-value printed as
+<code>0</code> means p &lt; 0.0001.</li>
+<li><code>regress</code> prints neither t nor the exact p: t =
+coefficient / SE, and the stars give the p (* &lt; 0.05, ** &lt; 0.01,
+*** &lt; 0.001). Coefficients are rounded to three decimals: if a
+standard error reads 0.001 or 0.000, rescale the variable
+(e.g. <code>age / 10</code>) before computing t by hand.</li>
+<li>With <code>i.x</code>, the dummies are labelled like
+<code>as.factor(x)3</code>: category 3 compared with the lowest
+category.</li>
+</ul>
 </div>
 <div class="tip">
 <p><strong>When a command fails</strong>, DAX shows an error from its R
@@ -2904,6 +3501,8 @@ The commands are the easy part. The habits are what matter:</p>
 <li>Describe one variable at a time, then relationships.</li>
 <li>Ask what the comparison assumes: is the counterfactual
 credible?</li>
+<li>Report size and uncertainty, not just stars: “significant” is not
+“important”.</li>
 <li>Interpret coefficients cautiously: association is not causation
 unless the design says so.</li>
 <li>Keep everything in a script, so that anyone, including you in three
@@ -2929,9 +3528,6 @@ discrimination. <em>American Economic Review</em>, 94(4), 991–1013. <a href="h
 A case study of the fast-food industry in New Jersey and Pennsylvania.
 <em>American Economic Review</em>, 84(4), 772–793. No DOI; author’s
 copy: <a href="https://davidcard.berkeley.edu/papers/min-wage-ff-nj.pdf" class="uri">https://davidcard.berkeley.edu/papers/min-wage-ff-nj.pdf</a></li>
-<li>Chattopadhyay, R., &amp; Duflo, E. (2004). Women as policy makers:
-Evidence from a randomized policy experiment in India.
-<em>Econometrica</em>, 72(5), 1409–1443. <a href="https://doi.org/10.1111/j.1468-0262.2004.00539.x" class="uri">https://doi.org/10.1111/j.1468-0262.2004.00539.x</a></li>
 <li>Gerber, A. S., Green, D. P., &amp; Larimer, C. W. (2008). Social
 pressure and voter turnout: Evidence from a large-scale field
 experiment. <em>American Political Science Review</em>, 102(1), 33–48.
@@ -2943,6 +3539,9 @@ in survey research. <em>American Political Science Review</em>, 98(1),
 <li>Todorov, A., Mandisodza, A. N., Goren, A., &amp; Hall, C. C. (2005).
 Inferences of competence from faces predict election outcomes.
 <em>Science</em>, 308(5728), 1623–1626. <a href="https://doi.org/10.1126/science.1110589" class="uri">https://doi.org/10.1126/science.1110589</a></li>
+<li>Wasserstein, R. L., &amp; Lazar, N. A. (2016). The ASA statement on
+p-values: Context, process, and purpose. <em>The American
+Statistician</em>, 70(2), 129–133. <a href="https://doi.org/10.1080/00031305.2016.1154108" class="uri">https://doi.org/10.1080/00031305.2016.1154108</a></li>
 </ul>
 <p><strong>Data sources</strong></p>
 <ul>
@@ -2955,12 +3554,18 @@ survey). <a href="https://cran.r-project.org/package=carData" class="uri">https:
 <li>Marshall, M. G., &amp; Gurr, T. R. (2020). <em>Polity5: Political
 Regime Characteristics and Transitions, 1800–2018. Dataset Users’
 Manual</em>. Center for Systemic Peace. <a href="https://www.systemicpeace.org/inscr/p5manualv2018.pdf" class="uri">https://www.systemicpeace.org/inscr/p5manualv2018.pdf</a></li>
+<li>NORC at the University of Chicago. <em>General Social Survey
+2021</em>. <a href="https://gss.norc.org" class="uri">https://gss.norc.org</a>. <code>gss2021_lab</code> and
+<code>gss2021_marital</code> are teaching extracts (complete cases,
+unweighted).</li>
 <li>The World Cup data were compiled for this course from FIFA records,
 V-Dem and Polity5. <code>resume</code>, <code>social</code>,
-<code>minwage</code>, <code>face</code>, <code>women</code>,
-<code>vignettes</code> and <code>turnout</code> come from Imai &amp;
-Bougher (2021); <code>gini_polarization</code> is derived from their
-<code>congress</code> and <code>USGini</code> files.</li>
+<code>minwage</code>, <code>face</code>, <code>vignettes</code>,
+<code>turnout</code> and <code>afghan_village</code> come from Imai
+&amp; Bougher (2021); <code>gini_polarization</code> is derived from
+their <code>congress</code> and <code>USGini</code> files.
+<code>msr_survey</code> is the anonymous class survey of MSR 2026/27,
+with variables that could identify a student removed.</li>
 </ul>
 <p class="footer-note">
 Questions: <a href="mailto:fvisconti@luiss.it" class="email">fvisconti@luiss.it</a>
