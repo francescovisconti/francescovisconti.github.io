@@ -7,9 +7,9 @@ share-description: "Italy has a new electoral law, approved about a year before 
 readtime: true
 ---
 
-On 8 October 2026 the Italian Chamber of Deputies gave final approval to a new electoral law for both chambers of Parliament, by 227 votes to 164 in a secret ballot. The President of the Republic promulgated it the following day. The law, informally referred to as the *Stabilicum*, replaces the system in force since 2017 and will govern the next general election, due by the autumn of 2027.
+On 8 October 2026 the Italian Chamber of Deputies gave final approval to a new electoral law for both chambers of Parliament, by 227 votes to 164 in a secret ballot. The law, informally referred to as the *Stabilicum*, replaces the system in force since 2017 and will govern the next general election, due by the autumn of 2027.
 
-Electoral reform is a sensitive subject. It concerns the rules under which every party competes, and it is almost always approved by some of those parties and opposed by others. This post does not assess whether the new law is good or bad for Italian democracy, which is a normative question that data cannot settle. It asks a narrower, empirical question that I am discussing this term with the students of my graduate course on Public Opinion and Elections at Luiss: **do the parties that change the electoral rules actually gain from them? And does it matter how close to an election the change is made?**
+Electoral reform is a sensitive subject. It concerns the rules under which every party competes, and it is almost always approved by some of those parties and opposed by others. Here I am not interested in evaluating its implications for representative democracy. I try to address a narrower, empirical question that I am discussing this term with the students of my graduate course on Public Opinion and Elections at Luiss: **do the parties that change the electoral rules actually gain from them? And does it matter how close to an election the change is made?**
 
 ## What the new law changes
 
@@ -22,11 +22,11 @@ In brief, the new law moves Italy from a mixed system, in which about 37 per cen
 - **Candidate lists** with a blocked first candidate and up to three preference votes for the others.
 - **The obligation to name a coalition leader** when lists are filed, although the name does not appear on the ballot and the President's prerogatives in appointing the Prime Minister are left untouched.
 
-The reform has been criticised by the opposition parties on several grounds, including the majority bonus, the number of signatures required of new parties, gender balance and the organisation of the vote abroad, and legal challenges aimed at bringing the law before the Constitutional Court have been announced. Those issues are for the courts to assess. Here I focus on what we know about the consequences of reforming electoral rules.
+The reform has been criticised by the opposition parties on several grounds, including the majority bonus, the number of signatures required of new parties, gender balance and the organisation of the vote abroad, and legal challenges aimed at bringing the law before the Constitutional Court have been announced.  Next I focus on what we know about the consequences of reforming electoral rules.
 
 ## A familiar pattern
 
-Italy changes its electoral law more often than most established democracies, and it tends to do so close to elections.
+In the last three decades, Italy has changed its electoral law more often than most established democracies, and it tends to do so close to elections.
 
 | Law | Approved | Next election | Interval |
 |:--|:--|:--|--:|
@@ -40,7 +40,7 @@ Italy changes its electoral law more often than most established democracies, an
 
 None of these reforms produced an obvious reward for the parties that promoted them. The *Mattarellum* was largely forced on Parliament by the 1993 referendum, and the parties then in government collapsed in the 1994 election. The centre-right coalition that approved the *Porcellum* lost the 2006 election by about 25,000 votes in the Chamber. In 2018, the parties that supported the *Rosatellum* had very different fortunes: the Democratic Party fell from 25.4 to 18.8 per cent, while the League rose from 4.1 to 17.4 per cent, and the largest party was the Five Star Movement, which had opposed the law.
 
-Four cases are not evidence, however. To go beyond anecdotes we need comparative data.
+Four cases are not evidence, however. To go beyond anecdotes, we need comparative data.
 
 ## The comparative evidence: no systematic advantage
 
@@ -66,7 +66,7 @@ On the one hand, a reform approved shortly before an election leaves rival parti
 
 Research on other types of reform shows that timing can matter. In a study of structural economic reforms in 90 countries published in the [*Journal of the European Economic Association*](https://doi.org/10.1093/jeea/jvad075), Alberto Alesina and co-authors find that liberalising reforms are costly for incumbents when implemented close to elections, because their benefits take time to materialise. But economic reforms work through different channels, and that result cannot be transferred to electoral rules.
 
-There is also a methodological difficulty. Timing is not random. Governments may change the rules shortly before an election precisely because they expect to lose, or to win. A simple comparison between early and late reforms cannot separate the effect of timing from the expectations that led to it.
+There is also a methodological difficulty. Timing is not random. Governments may change the rules shortly before an election precisely because they expect to lose. A simple comparison between early and late reforms cannot separate the effect of timing from the expectations that led to it.
 
 ## What citizens know and think
 
