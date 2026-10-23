@@ -84,7 +84,7 @@ Three conclusions emerge from the evidence.
 
 1. **Changing the rules does not guarantee an advantage.** In Europe, parties that reform the electoral law have on average done no better, and often worse, at the following election. Worldwide, they do not obtain a more favourable conversion of votes into seats.
 2. **The effect of timing is still an open question.** The comparative evidence shows no significant effect, but timing is difficult to study because governments choose it strategically.
-3. **Citizens judge electoral rules through partisan lenses.** Knowledge is limited and opinions follow the divide between government and opposition.
+3. **Citizens judge electoral rules through partisan lenses.** Knowledge is limited, and opinions follow the divide between government and opposition.
 
 The 2027 election will offer a new case, under rules that have yet to be tested and that may still be reviewed by the Constitutional Court. As with any single case, it will not settle the question. But it will allow us to observe whether the mechanical effects of the new law, the reactions of voters and the strategic adaptation of parties reinforce or offset one another, which is what this literature suggests we should be looking for.
 
